@@ -1,3 +1,4 @@
 advanced-custom-fields-pro
 .htaccess
-.env
+.env.php
+wp-config.php
