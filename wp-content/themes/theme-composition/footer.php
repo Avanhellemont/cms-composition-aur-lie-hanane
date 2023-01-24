@@ -1,7 +1,6 @@
 </div>
     <footer>
 
-
 <h4>Rendez-nous visite !</h4>
         <a class="google-map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt=""></a>
     </div>
@@ -17,7 +16,7 @@
             <span><a href="#"target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/svg/logo-instagram.svg" alt=""> </a> </span>
         </div>
         <h6><p><a href="#">&#169 COMPOSITION 2019 - </a><a href="#"> POLITIQUE DE CONFIDENTIALITE</a> </p></h6>
-        <p>TVA : BE0872574089</p>
+        <p>TVA : BE0872574089</p>''
     </div>
 </div>
 
