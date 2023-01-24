@@ -1,7 +1,6 @@
 <footer class="footer">
 <!-------------------------------GOOGLE MAP------------------------------------>
 
-<hr class="footer__hr">
 <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
             <a class="google__map" href="#"> <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="">Google map </a>

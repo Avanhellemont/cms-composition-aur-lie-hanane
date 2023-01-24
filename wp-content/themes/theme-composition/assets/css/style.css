@@ -122,7 +122,6 @@ a.header__button:hover {
 }
 
 .div1 {
-  background-color: red;
   margin-right: auto;
   color: black;
   width: 33%;
@@ -137,7 +136,6 @@ a.header__button:hover {
 }
 
 .div2 {
-  background-color: blue;
   color: black;
   font-weight: 400;
   font-size: 15px;
@@ -155,7 +153,6 @@ a.header__button:hover {
 }
 
 .div3 {
-  background-color: chartreuse;
   width: 30%;
 }
 
