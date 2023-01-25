@@ -111,6 +111,7 @@ a.header__button:hover {
   width: 100%;
   display: flex;
   color: black;
+  margin-top: 100px;
 }
 
 .footer__title {
@@ -165,37 +166,49 @@ a.header__button:hover {
 
 .div3 {
   width: 30%;
+  margin-top: 50px;
+  line-height: 2;
 }
 
-.justIcons {
-  padding: 10%;
+.footer__icons {
   color: black;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
+  margin-right: 100px;
 }
 
 .footer__facebook {
   width: 53px;
   height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   border: 2px solid #d9d9d9;
+}
+
+.footer__img__facebook {
+  width: 12px;
 }
 
 .footer__insta {
   width: 53px;
   height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   border: 2px solid #d9d9d9;
+  margin-left: 20px;
 }
 
 .footer__copy__confid {
   color: black;
-  padding-left: 5%;
-  padding: 15px 15px;
-  font: 11px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 }
 
 .footer__copy {
@@ -211,6 +224,10 @@ a.header__button:hover {
   font-weight: 600;
   padding-left: 5%;
   padding-bottom: 5%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 }
 
 * {

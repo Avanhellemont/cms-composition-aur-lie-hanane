@@ -1,128 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
-
 .footer {
-    background-color:white;
-    width: 100%;
-    display: flex;	
-    color:black;
-
-
+  background-color: white;
+  width: 100%;
+  display: flex;
+  color: black;
+  margin-top: 100px;
 }
-    .footer__title{
-        color: rgb(19, 18, 18);
-        margin: 0 0 15px;
-        padding-top: 80px;
-        padding-left: 80px;
-        font-size:xx-large;
-    }
-
-    .div1 {
-        //background-color: red;
-        margin-right: auto;
-        color: black;
-        
-        width:33%;
-}
-.google__map{
-    color: rgb(19, 18, 18);
-        padding-top: 120px;
-        padding-left: 80px;
-        text-decoration:none;
-        font-weight: 700;
+.footer__title {
+  color: rgb(19, 18, 18);
+  margin: 0 0 15px;
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: xx-large;
 }
 
-    .div2{
-    //background-color: blue;
+.div1 {
+  //background-color: red;
+  margin-right: auto;
+  color: black;
+
+  width: 33%;
+}
+.google__map {
+  color: rgb(19, 18, 18);
+  padding-top: 120px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.div2 {
+  //background-color: blue;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+  margin-right: auto;
+  margin-top: auto;
+  width: 30%;
+  height: 120px;
+}
+.footer__mail {
+  text-decoration: none;
+
+  .footer__info {
+    text-decoration: none;
     color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 2;
-    letter-spacing: 0.3px;
-    word-spacing: 0.5px;
-    margin-right: auto;
-    margin-top: auto;
-    width:30%;
-    height:120px;
-
+  }
 }
-.footer__mail{
-    text-decoration:none;
-
-    .footer__info{
-        text-decoration: none;
-        color: black;
-}
-}   
 
 .footer__phone {
-    text-decoration: none;
-        .footer__tel{
-            color: black;
-}
-}
-
-
-
-    .div3{
-        //background-color: chartreuse;
-        width:30%;
-
-    
-
-
-}
-
-    .justIcons{
-    padding: 10%;
+  text-decoration: none;
+  .footer__tel {
     color: black;
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-end;
-
-    
-
-}
-.footer__facebook{
-    width: 53px;
-    height: 53px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    border: 2px solid #d9d9d9;
-    
-    
-}
-.footer__insta{
-    width: 53px;
-    height: 53px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    border: 2px solid #d9d9d9;
+  }
 }
 
-    .footer__copy__confid{
+.div3 {
+  //background-color: chartreuse;
+  width: 30%;
+  margin-top:50px;
+  line-height: 2;
+  //letter-spacing: 0.3px;
+  //word-spacing: 0.5px;
+
+}
+
+.footer__icons {
+  //padding: 10%;
+
+  color: black;
+  //   background-color: aqua;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.footer__facebook {
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+}
+.footer__img__facebook {
+  width: 12px;
+}
+
+.footer__insta {
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  margin-left: 20px;
+}
+
+.footer__copy__confid {
+  color: black;
+   display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  //cursor: pointer;
+}
+
+.footer__copy {
+color: black;
+//   display: flex;
+//   justify-content: flex-end;
+//   margin-right: 100px;
+}
+.footer__confid {
     color: black;
-    padding-left: 5%;
-    padding: 15px 15px;
-    font: 11px;
-    //cursor: pointer;
-    }
-
-.footer__copy{
-    color:black;
-}
-.footer__confid{
-    color:black;
+//   display: flex;
+//   justify-content: flex-end;
+//   margin-right: 100px;
 }
 
-    .footer__tva {
-    font-size:x-small;
-    font-weight: 600;
-    padding-left: 5%;
-    padding-bottom: 5%;
-
+.footer__tva {
+  font-size: x-small;
+  font-weight: 600;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 }
-
-
-
-

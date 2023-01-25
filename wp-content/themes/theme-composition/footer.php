@@ -14,9 +14,11 @@
 <!-------------------------------LIENS SOCIAUX------------------------------------>
 
 <div class="div3">
-    <div class="justIcons">
-        <div class="footer__facebook"><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/svg/logo-facebook.svg" alt="logo-facebook"> </a> </div>
-        <div class="footer__insta"><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/svg/logo-instagram.svg" alt="logo-instagram"> </a> </div>
+    <div class="footer__icons">
+
+        <div class="footer__facebook"><a href="#" target="_blank"><img class="footer__img__facebook" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-facebook.svg" alt="logo-facebook"> </a> </div>
+        <div class="footer__insta"><a href="#" target="_blank"><img class="footer__img__insta"src="<?php bloginfo('template_url'); ?>/assets/svg/logo-instagram.svg" alt="logo-instagram"> </a> </div>
+   
     </div>
     <h6>
         <p class="footer__copy__confid">
