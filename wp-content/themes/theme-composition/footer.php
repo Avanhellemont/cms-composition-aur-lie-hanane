@@ -3,13 +3,13 @@
 
 <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
-            <a class="google__map" href="#"> <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="">Google map </a>
+            <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
     </div>
 <!-------------------------------COORDONNES------------------------------------>
 <div class="div2">
-    <p class="footer__adresse"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/marker-road.svg" alt="">Route de Hamoir, 87 – 4500 Huy </p>
-    <p class="footer__mail"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
-    <p class="footer__phone"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
+    <p><img class="footer__adresse" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p> </p>
+    <p class="footer__mail"><img src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
+    <p class="footer__phone"><img src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
 </div>
 <!-------------------------------LIENS SOCIAUX------------------------------------>
 
@@ -18,7 +18,7 @@
 
         <div class="footer__facebook"><a href="#" target="_blank"><img class="footer__img__facebook" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-facebook.svg" alt="logo-facebook"> </a> </div>
         <div class="footer__insta"><a href="#" target="_blank"><img class="footer__img__insta"src="<?php bloginfo('template_url'); ?>/assets/svg/logo-instagram.svg" alt="logo-instagram"> </a> </div>
-   
+
     </div>
     <h6>
         <p class="footer__copy__confid">

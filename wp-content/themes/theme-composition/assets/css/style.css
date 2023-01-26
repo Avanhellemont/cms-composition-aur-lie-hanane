@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -115,6 +114,7 @@ a.header__button:hover {
 }
 
 .footer__title {
+  font-family: "Proxima Nova", sans-serif;
   color: rgb(19, 18, 18);
   margin: 0 0 15px;
   padding-top: 80px;
@@ -123,12 +123,16 @@ a.header__button:hover {
 }
 
 .div1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
   margin-right: auto;
   color: black;
   width: 33%;
 }
 
 .google__map {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
   color: rgb(19, 18, 18);
   padding-top: 120px;
   padding-left: 80px;
@@ -137,9 +141,10 @@ a.header__button:hover {
 }
 
 .div2 {
+  font-family: "Proxima Nova", sans-serif;
   color: black;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
@@ -150,9 +155,22 @@ a.header__button:hover {
 }
 
 .footer__mail {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
   text-decoration: none;
 }
-.footer__mail .footer__info {
+
+.footer__adress {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.footer__adress .footer__info {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
   text-decoration: none;
   color: black;
 }
@@ -165,9 +183,13 @@ a.header__button:hover {
 }
 
 .div3 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
   width: 30%;
   margin-top: 50px;
   line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
 }
 
 .footer__icons {
@@ -188,8 +210,21 @@ a.header__button:hover {
   border: 2px solid #d9d9d9;
 }
 
+.footer__facebook {
+  background-color: rgb(248, 242, 242);
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__facebook:hover {
+  background-color: #131010;
+  color: white;
+}
+
 .footer__img__facebook {
   width: 12px;
+  margin-top: 5px;
 }
 
 .footer__insta {
@@ -204,6 +239,30 @@ a.header__button:hover {
   margin-left: 20px;
 }
 
+.footer__insta {
+  background-color: rgb(248, 242, 242);
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__insta:hover {
+  background-color: #131010;
+  color: white;
+}
+
+.footer__facebook {
+  background-color: rgb(248, 242, 242);
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__facebook:hover {
+  background-color: #131010;
+  color: white;
+}
+
 .footer__copy__confid {
   color: black;
   display: flex;
@@ -213,10 +272,16 @@ a.header__button:hover {
 
 .footer__copy {
   color: black;
+  padding: 15px 5px;
+  position: relative;
+  cursor: pointer;
 }
 
 .footer__confid {
   color: black;
+  padding: 15px 5px;
+  position: relative;
+  cursor: pointer;
 }
 
 .footer__tva {
