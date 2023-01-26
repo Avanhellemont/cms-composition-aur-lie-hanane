@@ -1,3 +1,7 @@
+/*************************************************   1   PARTIE**************************************/
+
+
+
 /*************************************************   DIV 1   **************************************/
 .div1 {
 font-family: "Proxima Nova", sans-serif;
@@ -16,7 +20,7 @@ width: 33%;
     padding-left: 80px;
     font-size: xx-large;
 }
-.footer {
+.footer__container {
     background-color: white;
     width: 100%;
     display: flex;
@@ -120,7 +124,7 @@ font-size: 16px;
 }
 
 .footer__icons {
-// background-color: aqua;
+//background-color: aqua;
 color: black;
 display: flex;
 justify-content: flex-end;

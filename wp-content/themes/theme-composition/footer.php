@@ -1,9 +1,26 @@
-<footer class="footer">
+<footer class="footer__container">
+<!-------------------------------1 er PARTIE----------------------------------->
+
+<div class="footer__top__content">
+    <div class="footer__content">        <img src="<?php bloginfo('template_url'); ?>/assets/images/1500x150_02.jpg" alt=""></a>
+
+        <img class="footer__content__img" src="" alt="">
+        <p class="footer__content__text" >Tissus et habillage maison </p>
+    </div>
+
+    <!-------------------------------  HORAIRE  ----------------------------------->
+
+    <div class="footer__horaire"></div>
+    <div></div>
+
+</div>
+<!-------------------------------2 eme PARTIE------------------------------------>
+
 <!-------------------------------GOOGLE MAP------------------------------------>
 
 <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
-            <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
+        <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
     </div>
 <!-------------------------------COORDONNES------------------------------------>
 <div class="div2">
