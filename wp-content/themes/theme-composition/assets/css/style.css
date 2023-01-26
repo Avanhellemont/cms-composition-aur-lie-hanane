@@ -105,12 +105,13 @@ a.header__button:hover {
   border: white solid 1px;
 }
 
-.footer {
-  background-color: white;
-  width: 100%;
-  display: flex;
+/*************************************************   DIV 1   **************************************/
+.div1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  margin-right: auto;
   color: black;
-  margin-top: 100px;
+  width: 33%;
 }
 
 .footer__title {
@@ -122,12 +123,12 @@ a.header__button:hover {
   font-size: xx-large;
 }
 
-.div1 {
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
-  margin-right: auto;
+.footer {
+  background-color: white;
+  width: 100%;
+  display: flex;
   color: black;
-  width: 33%;
+  margin-top: 100px;
 }
 
 .google__map {
@@ -140,6 +141,7 @@ a.header__button:hover {
   font-weight: 700;
 }
 
+/*************************************************   DIV 2   **************************************/
 .div2 {
   font-family: "Proxima Nova", sans-serif;
   color: black;
@@ -154,10 +156,16 @@ a.header__button:hover {
   height: 120px;
 }
 
-.footer__mail {
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
-  text-decoration: none;
+.footer__container__icon__adress {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_img_adress {
+  width: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .footer__adress {
@@ -167,12 +175,21 @@ a.header__button:hover {
   color: black;
   display: flex;
   flex-direction: row;
+  padding-left: 3%;
 }
-.footer__adress .footer__info {
+
+.footer__mail {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer__info {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: black;
+  padding-left: 3%;
 }
 
 .footer__phone {
@@ -180,8 +197,10 @@ a.header__button:hover {
 }
 .footer__phone .footer__tel {
   color: black;
+  padding-left: 3%;
 }
 
+/*************************************************   DIV 3   **************************************/
 .div3 {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
@@ -240,7 +259,7 @@ a.header__button:hover {
 }
 
 .footer__insta {
-  background-color: rgb(248, 242, 242);
+  background-color: white;
   color: black;
   transition-duration: 0.1s;
   cursor: pointer;
@@ -252,7 +271,7 @@ a.header__button:hover {
 }
 
 .footer__facebook {
-  background-color: rgb(248, 242, 242);
+  background-color: white;
   color: black;
   transition-duration: 0.1s;
   cursor: pointer;

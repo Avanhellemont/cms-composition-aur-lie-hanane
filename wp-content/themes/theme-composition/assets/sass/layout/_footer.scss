@@ -1,20 +1,4 @@
-
-.footer {
-  background-color: white;
-  width: 100%;
-  display: flex;
-  color: black;
-  margin-top: 100px;
-}
-.footer__title {
-    font-family: "Proxima Nova", sans-serif;
-  color: rgb(19, 18, 18);
-  margin: 0 0 15px;
-  padding-top: 80px;
-  padding-left: 80px;
-  font-size: xx-large;
-}
-
+/*************************************************   DIV 1   **************************************/
 .div1 {
 font-family: "Proxima Nova", sans-serif;
 font-size: 16px;
@@ -23,6 +7,25 @@ margin-right: auto;
 color: black;
 width: 33%;
 }
+
+.footer__title {
+    font-family: "Proxima Nova", sans-serif;
+    color: rgb(19, 18, 18);
+    margin: 0 0 15px;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: xx-large;
+}
+.footer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    color: black;
+    margin-top: 100px;
+}
+
+
+
 .google__map {
 font-family: "Proxima Nova", sans-serif;
 font-size: 16px;
@@ -32,6 +35,8 @@ padding-left: 80px;
 text-decoration: none;
 font-weight: 700;
 }
+
+ /*************************************************   DIV 2   **************************************/
 
 .div2 {
 //background-color: blue;
@@ -46,15 +51,27 @@ margin-right: auto;
 margin-top: auto;
 width: 30%;
 height: 120px;
+}
 
+// .footer__container__icon__adress{
+//  display: flex;
+//  flex-direction: row;
+// }
+
+.footer__container__icon__adress{
+  display: flex;
+  flex-direction: row;
 
 }
-.footer__mail {
-font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
-text-decoration: none;
+
+.footer_img_adress{
+    width: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
 
 }
+
 .footer__adress {
     font-family: "Proxima Nova", sans-serif;
     font-size: 16px;
@@ -62,13 +79,23 @@ text-decoration: none;
     color: black;
     display: flex;
     flex-direction: row;
+    padding-left: 3%;
+
+}
+
+.footer__mail {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+}
 
 .footer__info {
     font-family: "Proxima Nova", sans-serif;
 font-size: 16px;
     text-decoration: none;
     color: black;
-}
+        padding-left: 3%;
+
 }
 
 .footer__phone {
@@ -76,9 +103,11 @@ font-size: 16px;
   
   .footer__tel {
     color: black;
+        padding-left: 3%;
+
   }
 }
-
+/*************************************************   DIV 3   **************************************/
 .div3 {
   //background-color: chartreuse;
   font-family: "Proxima Nova", sans-serif;
@@ -141,7 +170,7 @@ cursor: pointer;
 
 
 .footer__insta{
-    background-color: rgb(248, 242, 242);
+    background-color: white;
     color: black;
     transition-duration: 0.1s;
     cursor: pointer;
@@ -152,7 +181,7 @@ cursor: pointer;
     color: white;
 }
 .footer__facebook{
-    background-color: rgb(248, 242, 242);
+    background-color: white;
     color: black;
     transition-duration: 0.1s;
     cursor: pointer;

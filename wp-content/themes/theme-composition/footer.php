@@ -7,9 +7,9 @@
     </div>
 <!-------------------------------COORDONNES------------------------------------>
 <div class="div2">
-    <p><img class="footer__adresse" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p> </p>
-    <p class="footer__mail"><img src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
-    <p class="footer__phone"><img src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
+    <div class="footer__container__icon__adress"><img class="footer__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
+    <p class="footer__mail">  <img class="footer__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
+    <p class="footer__phone"> <img class="footer__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
 </div>
 <!-------------------------------LIENS SOCIAUX------------------------------------>
 
@@ -22,12 +22,11 @@
     </div>
     <h6>
         <p class="footer__copy__confid">
-            <a class= "footer__copy" href="#">&#169 COMPOSITION 2019 - </a>
+            <a class= "footer__copy" href="#"> &#169 COMPOSITION 2019 - </a>
             <a class= "footer__confid" href="#"> POLITIQUE DE CONFIDENTIALITE</a>
         </p>
     </h6>
-
-        <p class="footer__tva">TVA : BE0872574089</p>
+        <p class="footer__tva"> TVA : BE0872574089 </p>
     </div>
 </footer>
     <?php wp_footer() ?> 
