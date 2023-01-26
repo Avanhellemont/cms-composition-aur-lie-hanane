@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Light.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Bold.otf")
+    format("opentype");
+}
+
+// @font-face {
+// 	font-family: 'Roboto';
+// 	src: url(‘/fonts/Roboto-Regular.woff2’) format(‘woff2’),
+// 		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
+// }
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
