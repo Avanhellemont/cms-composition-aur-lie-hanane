@@ -1,7 +1,15 @@
 /*************************************************   1   PARTIE**************************************/
 
 
-
+.footer__content__text{
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+color: rgb(19, 18, 18);
+padding-top: 120px;
+padding-left: 80px;
+text-decoration: none;
+font-weight: 700;
+}
 /*************************************************   DIV 1   **************************************/
 .div1 {
 font-family: "Proxima Nova", sans-serif;
@@ -20,6 +28,7 @@ width: 33%;
     padding-left: 80px;
     font-size: xx-large;
 }
+
 .footer__container {
     background-color: white;
     width: 100%;
@@ -27,8 +36,6 @@ width: 33%;
     color: black;
     margin-top: 100px;
 }
-
-
 
 .google__map {
 font-family: "Proxima Nova", sans-serif;
@@ -43,7 +50,7 @@ font-weight: 700;
  /*************************************************   DIV 2   **************************************/
 
 .div2 {
-//background-color: blue;
+background-color: blue;
 font-family: "Proxima Nova", sans-serif;
 color: black;
 font-weight: 400;
@@ -65,7 +72,6 @@ height: 120px;
 .footer__container__icon__adress{
   display: flex;
   flex-direction: row;
-
 }
 
 .footer_img_adress{
@@ -73,7 +79,6 @@ height: 120px;
     position: absolute;
     left: 0;
     top: 0;
-
 }
 
 .footer__adress {
@@ -84,7 +89,6 @@ height: 120px;
     display: flex;
     flex-direction: row;
     padding-left: 3%;
-
 }
 
 .footer__mail {
@@ -99,7 +103,6 @@ font-size: 16px;
     text-decoration: none;
     color: black;
         padding-left: 3%;
-
 }
 
 .footer__phone {
@@ -132,6 +135,7 @@ margin-right: 100px;
 //transition-duration: 0.4s;
 //cursor: pointer;
 }
+
 .footer__facebook {
   width: 53px;
   height: 53px;
@@ -172,7 +176,6 @@ cursor: pointer;
   margin-left: 20px;
 }
 
-
 .footer__insta{
     background-color: white;
     color: black;
@@ -184,6 +187,7 @@ cursor: pointer;
     background-color: #131010;
     color: white;
 }
+
 .footer__facebook{
     background-color: white;
     color: black;
@@ -195,6 +199,7 @@ cursor: pointer;
     background-color: #131010;
     color: white;
 }
+
 .footer__copy__confid {
     color: black;
     display: flex;
@@ -212,6 +217,7 @@ cursor: pointer;
   //   justify-content: flex-end;
   //   margin-right: 100px;
 }
+
 .footer__confid {
   color: black;
   padding: 15px 5px;

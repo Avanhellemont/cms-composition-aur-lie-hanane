@@ -106,6 +106,16 @@ a.header__button:hover {
 }
 
 /*************************************************   1   PARTIE**************************************/
+.footer__content__text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: rgb(19, 18, 18);
+  padding-top: 120px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 /*************************************************   DIV 1   **************************************/
 .div1 {
   font-family: "Proxima Nova", sans-serif;
@@ -144,6 +154,7 @@ a.header__button:hover {
 
 /*************************************************   DIV 2   **************************************/
 .div2 {
+  background-color: blue;
   font-family: "Proxima Nova", sans-serif;
   color: black;
   font-weight: 400;
