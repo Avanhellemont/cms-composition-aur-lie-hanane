@@ -1,15 +1,32 @@
 /*************************************************   1   PARTIE**************************************/
 
+.footer__content{
+  width: 150px;
+  height: 150px;
+  //margin-bottom: 80%;
+  margin-left: 40%;
 
-.footer__content__text{
+
+.footer__img__content{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+  .footer__content__text{
 font-family: "Proxima Nova", sans-serif;
 font-size: 16px;
 color: rgb(19, 18, 18);
-padding-top: 120px;
-padding-left: 80px;
-text-decoration: none;
+//padding-top: 120px;
+//padding-left: 80px;
+//text-decoration: none;
 font-weight: 700;
+//height: auto;
+//margin-bottom: 80%;
 }
+}
+
+
 /*************************************************   DIV 1   **************************************/
 .div1 {
 font-family: "Proxima Nova", sans-serif;
@@ -98,11 +115,11 @@ text-decoration: none;
 }
 
 .footer__info {
-    font-family: "Proxima Nova", sans-serif;
+font-family: "Proxima Nova", sans-serif;
 font-size: 16px;
-    text-decoration: none;
-    color: black;
-        padding-left: 3%;
+text-decoration: none;
+color: black;
+padding-left: 3%;
 }
 
 .footer__phone {

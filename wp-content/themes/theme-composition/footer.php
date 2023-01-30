@@ -1,24 +1,31 @@
-<footer class="footer__container">
+<?php wp_footer();?>
+
+<div id="footer" class="footer__container">
 <!-------------------------------   1 er PARTIE    ----------------------------------->
 
 <div class="footer__top__content">
-    <div class="footer__content"><img src="<?php bloginfo('template_url'); ?>/assets/images/1500x150_02.jpg" alt="">
+    <!------------------------------- photo and texte  + liens  ----------------------------------->
 
-        <img class="footer__content__img" src="" alt="">
-        <p class="footer__content__text" href="#">Tissus et habillage maison <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></p>
-
+    <div class="footer__content">
+         <div>
+            <img class="footer__img__content" src="<?php bloginfo('template_url'); ?>/assets/images/1500x1250_02.jpg" alt="image">
+        </div>
+        <div>
+        <a class="footer__content__text" href="#">Tissus et habillage maison 
+            <img class="footer__content__img" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="icon"></a>
+        </div>
     </div>
 
     <!-------------------------------    HORAIRE    ----------------------------------->
 
     <div class="footer__horaire"></div>
-    <div></div>
+    
 
 </div>
 <!-------------------------------   2 eme PARTIE   ------------------------------------>
 
 <!-------------------------------   GOOGLE MAP   -------------------------------------->
-
+<br>
 <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
         <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>

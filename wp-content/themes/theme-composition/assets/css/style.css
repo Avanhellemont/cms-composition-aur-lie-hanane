@@ -106,13 +106,20 @@ a.header__button:hover {
 }
 
 /*************************************************   1   PARTIE**************************************/
-.footer__content__text {
+.footer__content {
+  width: 150px;
+  height: 150px;
+  margin-left: 40%;
+}
+.footer__content .footer__img__content {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.footer__content .footer__content__text {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   color: rgb(19, 18, 18);
-  padding-top: 120px;
-  padding-left: 80px;
-  text-decoration: none;
   font-weight: 700;
 }
 
@@ -154,7 +161,6 @@ a.header__button:hover {
 
 /*************************************************   DIV 2   **************************************/
 .div2 {
-  background-color: blue;
   font-family: "Proxima Nova", sans-serif;
   color: black;
   font-weight: 400;
