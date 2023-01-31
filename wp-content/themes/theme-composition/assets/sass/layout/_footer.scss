@@ -1,32 +1,97 @@
 /*************************************************   1   PARTIE**************************************/
-.footer__container{
+.footer__banner{
   padding: 30px;
+  //background-color:burlywood;
+
+}
+.footer__top__content{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 .footer__content {
+  //background-color:crimson;
   width: 150px;
   height: 150px;
   //margin-bottom: 80%;
  // margin-left: 40%;
+}
 
+.footer__img__bloc{
+  //background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 735px;
+    justify-content: space-around;
+}
   .footer__img__content {
     width: 150px;
     height: 150px;
     border-radius: 50%;
   }
+
+  .footer__text__bloc{
+    font-family: "Proxima Nova", sans-serif;
+    margin: 45px 0px 0px -244px;
+}
+  
   .footer__content__text {
     font-family: "Proxima Nova", sans-serif;
     font-size: 16px;
-    color: rgb(19, 18, 18);
-    //padding-top: 120px;
-    //padding-left: 80px;
-    //text-decoration: none;
+    color: black;
+    outline:0;
+    text-decoration: none;
+    background-color: transparent;
+    cursor:pointer;
     font-weight: 700;
-    //height: auto;
-    //margin-bottom: 80%;
+    
+  }
+
+  .footer__horaire{
+    background-color: black;
+    color: white;
+
+  
+  .footer__bloc__heure{
+    width: 100%;
+    padding: 40px 0 35px 80px;
+    //margin-bottom: 40px;
+    position: relative;
+    float: right;
+    //background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer__horaire{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    word-spacing: 0.5px;
+    cursor: default;
+    text-decoration:none;  
+  }
+
+  h5{
+      font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
   }
 }
 
+
 /*************************************************   DIV 1   **************************************/
+
+.footer__bottom {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .div1 {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
@@ -131,7 +196,7 @@
 }
 /*************************************************   DIV 3   **************************************/
 .div3 {
-  background-color: chartreuse;
+  //background-color: chartreuse;
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   width: 30%;

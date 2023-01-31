@@ -1,16 +1,16 @@
 <?php wp_footer();?>
-
-<div id="footer" class="footer__container">
+<footer>
+<div class="footer__banner">
 <!-------------------------------   1 er PARTIE    ----------------------------------->
 
 <div class="footer__top__content">
-    <!------------------------------- photo and texte  + liens  ----------------------------------->
+    <!------------------------------- photo and text  + liens  ----------------------------------->
 
     <div class="footer__content">
          <div class="footer__img__bloc">
             <img class="footer__img__content" src="<?php bloginfo('template_url'); ?>/assets/images/1500x1250_02.jpg" alt="image">
         
-            <div>
+            <div class="footer__text__bloc">
                 <a class="footer__content__text" href="#">Tissus et habillage maison 
                     <img class="footer__content__img" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="icon"></a>
             </div>
@@ -19,14 +19,25 @@
 
     <!-------------------------------    HORAIRE    ----------------------------------->
 
-    <div class="footer__horaire"></div>
+    <div class="footer__horaire">
+        <div class="footer__bloc__heure">
+            <p class="footer__icon"><img class="footer__img__time" src="<?php bloginfo('template_url'); ?>/assets/svg/time-clock.svg" alt=""></p>
+            <div class="footer__horaire">
+                <h5>Horaire</h5>
+                    <ul>
+                        <li>lundi > dimanche : (Fermé le mardi)</li>
+                        <li>10h > 18h</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
     
 
 </div>
 <!-------------------------------   2 eme PARTIE   ------------------------------------>
 
 <!-------------------------------   GOOGLE MAP   -------------------------------------->
-<br>
+<div class="footer__bottom">
 <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
         <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
@@ -55,6 +66,8 @@
     </h6>
         <p class="footer__tva"> TVA : BE0872574089 </p>
     </div>
+</div>
+</div>
 </footer>
     <?php wp_footer() ?> 
 </body>
