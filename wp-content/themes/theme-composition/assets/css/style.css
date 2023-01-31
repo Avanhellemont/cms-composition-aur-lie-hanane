@@ -106,10 +106,13 @@ a.header__button:hover {
 }
 
 /*************************************************   1   PARTIE**************************************/
+.footer__container {
+  padding: 30px;
+}
+
 .footer__content {
   width: 150px;
   height: 150px;
-  margin-left: 40%;
 }
 .footer__content .footer__img__content {
   width: 150px;
@@ -220,6 +223,7 @@ a.header__button:hover {
 
 /*************************************************   DIV 3   **************************************/
 .div3 {
+  background-color: chartreuse;
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   width: 30%;

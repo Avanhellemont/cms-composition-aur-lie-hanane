@@ -7,12 +7,13 @@
     <!------------------------------- photo and texte  + liens  ----------------------------------->
 
     <div class="footer__content">
-         <div>
+         <div class="footer__img__bloc">
             <img class="footer__img__content" src="<?php bloginfo('template_url'); ?>/assets/images/1500x1250_02.jpg" alt="image">
-        </div>
-        <div>
-        <a class="footer__content__text" href="#">Tissus et habillage maison 
-            <img class="footer__content__img" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="icon"></a>
+        
+            <div>
+                <a class="footer__content__text" href="#">Tissus et habillage maison 
+                    <img class="footer__content__img" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="icon"></a>
+            </div>
         </div>
     </div>
 
