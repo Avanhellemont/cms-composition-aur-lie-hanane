@@ -6,9 +6,8 @@
     <?php wp_head() ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
 </head>
-
+<body>
 <header>
- 
 <img class="header__logo--img" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-full.svg" alt="logo">
 
 <nav class="header__nav">
@@ -20,8 +19,4 @@
 
 
     <a href="#" class="header__button">Wishlist <img class="button__icon" src="<?php bloginfo('template_url'); ?>/assets/svg/bullet-list-black.svg" alt="logo"></a>
-
 </header>
-
-
-<body>
