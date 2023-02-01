@@ -3,6 +3,17 @@
 <main>
 
 <!-- DIAPORAMA PART -->
+<?php 
+$tissus = get_field('tissus');
+if( $tissus['tissus_image'] ):
+?>
+ <section class="diaporama">
+    <h1>Nous prenons soin de votre schéma de vie.</h1>
+    <img class="diaporama__image" src="<?php echo $tissus['tissus_image']['sizes']['taille_slide']; ?>">
+</section>
+  
+
+    <?php endif; ?>
 
 <!--  ETUDE D'ARCHI PART  -->
 <?php 
@@ -10,10 +21,14 @@ $etude_archi = get_field('etude_archi');
 if( $etude_archi['etude_titre'] && $etude_archi['etude_soustitre'] && $etude_archi['etude_texte'] && $etude_archi['etude_liste']):
 ?>
  <section class="etude">
-    <h2 class="etude__titre"><?php echo $etude_archi['etude_titre']; ?></h2>
-    <p class="etude__sous-titre"><?php echo $etude_archi['etude_soustitre']; ?></p>
-    <p class="etude__text"><?php echo $etude_archi['etude_texte']; ?></p>
-    <div class="etude__liste"><?php echo $etude_archi['etude_liste']; ?></div>
+    <div class="etude__content--left">
+        <h2 class="etude__titre"><?php echo $etude_archi['etude_titre']; ?></h2>
+        <p class="etude__sous-titre"><?php echo $etude_archi['etude_soustitre']; ?></p>
+        <p class="etude__text"><?php echo $etude_archi['etude_texte']; ?></p>
+    </div>
+    <div class="etude__content--right">
+        <div class="etude__liste"><?php echo $etude_archi['etude_liste']; ?></div>
+    </div>
 </section>
     <?php endif; ?>
 
@@ -43,10 +58,6 @@ if( $tissus['tissus_image'] && $tissus['tissus_titre'] && $tissus['tissus_sousti
     <p class="tissus__texte"><?php echo $tissus['tissus_texte']; ?></p>
 </section>
     <?php endif; ?>
-
-
-
-
 
 </main>
 <?php get_footer() ?>
