@@ -1,4 +1,167 @@
+.page__contact{
+    font-family: "proxima-nova", sans-serif;
+    color: #000;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    margin-top: -5px;
+    display: block;
 
-contact__lieux{
+    .contact{ 
     
+        .banner__top{
+            background: #000;
+            padding: 155px 0 0;
+            transition: height 1s;
+            height: 638px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container__banner{
+            max-width: 1500px;
+            padding: 0 70px;
+            margin: 0 auto;
+            height: 100%;
+            transition: max-width 1s;
+            position: relative; 
+            
+        }
+        .content{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            display: inline-block;
+        }
+        .titre__container{
+            position: relative;
+            width: 42%;
+            float: left;
+        }
+        .trait{
+            height: 1px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            right: calc(100% + 32px);
+            top: 23px;
+            animation: scale .8s;
+        }
+        .titre{
+            font-size: 40px;
+            font-weight: 300;
+            color: white;
+            animation: fade 1s;
+            line-height: 1.1;
+        }
+/*****************************************container Coordonnes**************************/
+.bloc__coordonnes {
+//background-color: blue;
+font-family: "Proxima Nova", sans-serif;
+color: white;  
+font-weight: 400;
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.3px;
+word-spacing: 0.5px;
+margin-right: auto;
+width: 30%;
+height: 120px;
 }
+
+.contact__container__icon__adress {
+display: flex;
+flex-direction: row;
+}
+
+.contact_img_adress {
+width: 18px;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.contact__adress {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+color:white;
+//  display: flex;
+flex-direction: row;
+padding-left: 3%;
+}
+
+.contact__mail {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+}
+
+.contact__info {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+color:white;
+padding-left: 3%;
+}
+
+.contact__phone {
+text-decoration: none;
+
+.contact__tel {
+    color:white;
+    padding-left: 3%;
+}
+.contact__tel:hover{
+    background-color: #000;
+    color: white;
+}
+}
+
+/******************************bloc Horaire*********************/
+.container__horaire{
+    width: 28%;
+    float: left;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    //background-color: rgb(6, 209, 57);
+
+    .contact__horaire{
+    background-color: black;
+    color: white;
+
+.contact__bloc__heure{
+        width: 100%;
+    padding: 40px 0 35px 80px;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact__horaire{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    word-spacing: 0.5px;
+    cursor: default;
+    text-decoration:none;  
+}
+
+h5{
+font-family: "Proxima Nova", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.3px;
+word-spacing: 0.5px;
+}
+}
+}
+
+
+
+
+}/**********fermeture contact*/
+}/**********fermeture page-contact*/

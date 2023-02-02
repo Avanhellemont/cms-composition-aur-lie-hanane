@@ -421,4 +421,153 @@ body {
   font-family: "Proxima Nova", sans-serif;
 }
 
+.page__contact {
+  font-family: "proxima-nova", sans-serif;
+  color: #000;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  margin-top: -5px;
+  display: block;
+  /**********fermeture contact*/
+}
+.page__contact .contact {
+  /*****************************************container Coordonnes**************************/
+  /******************************bloc Horaire*********************/
+}
+.page__contact .contact .banner__top {
+  background: #000;
+  padding: 155px 0 0;
+  transition: height 1s;
+  height: 638px;
+  display: flex;
+  flex-direction: row;
+}
+.page__contact .contact .container__banner {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+}
+.page__contact .contact .content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.page__contact .contact .titre__container {
+  position: relative;
+  width: 42%;
+  float: left;
+}
+.page__contact .contact .trait {
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: calc(100% + 32px);
+  top: 23px;
+  animation: scale 0.8s;
+}
+.page__contact .contact .titre {
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  animation: fade 1s;
+  line-height: 1.1;
+}
+.page__contact .contact .bloc__coordonnes {
+  font-family: "Proxima Nova", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+  margin-right: auto;
+  width: 30%;
+  height: 120px;
+}
+.page__contact .contact .contact__container__icon__adress {
+  display: flex;
+  flex-direction: row;
+}
+.page__contact .contact .contact_img_adress {
+  width: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.page__contact .contact .contact__adress {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  flex-direction: row;
+  padding-left: 3%;
+}
+.page__contact .contact .contact__mail {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+.page__contact .contact .contact__info {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+}
+.page__contact .contact .contact__phone {
+  text-decoration: none;
+}
+.page__contact .contact .contact__phone .contact__tel {
+  color: white;
+  padding-left: 3%;
+}
+.page__contact .contact .contact__phone .contact__tel:hover {
+  background-color: #000;
+  color: white;
+}
+.page__contact .contact .container__horaire {
+  width: 28%;
+  float: left;
+  padding-top: 20px;
+  margin-bottom: 70px;
+}
+.page__contact .contact .container__horaire .contact__horaire {
+  background-color: black;
+  color: white;
+}
+.page__contact .contact .container__horaire .contact__horaire .contact__bloc__heure {
+  width: 100%;
+  padding: 40px 0 35px 80px;
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.page__contact .contact .container__horaire .contact__horaire .contact__horaire {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  word-spacing: 0.5px;
+  cursor: default;
+  text-decoration: none;
+}
+.page__contact .contact .container__horaire .contact__horaire h5 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+
+/**********fermeture page-contact*/
+
 /*# sourceMappingURL=style.css.map */
