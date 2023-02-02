@@ -246,9 +246,8 @@ body {
 
 .etude {
   display: flex;
-  margin-top: 600px;
+  margin-top: 500px;
   margin-left: 75px;
-  margin-bottom: 200px;
 }
 .etude .etude__content--left {
   display: flex;
@@ -265,23 +264,22 @@ body {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 70px;
 }
-.etude .etude__content--left .etude__text {
+.etude .etude__content--left .etude__text--firstpart, .etude .etude__content--left .etude__text--secondpart {
   font-size: 16px;
   font-weight: 300;
   line-height: 2;
-  letter-spacing: 1.2px;
-  margin-bottom: 60px;
-}
-.etude .etude__content--left .etude__text strong {
-  line-height: 2;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
 }
 .etude .etude__content--right {
   background-color: black;
   color: white;
   height: 100%;
   padding: 175px 10px 150px 250px;
-  width: 100%;
+  width: 94.5%;
+  height: 100%;
 }
 .etude .etude__content--right .etude__span {
   font-weight: 500;
@@ -301,6 +299,75 @@ body {
   width: 100%;
   letter-spacing: 1.2px;
   padding: 0 0 0 60px;
+}
+
+.stephan {
+  display: flex;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  margin-bottom: 120px;
+}
+.stephan .stephan__image {
+  width: 46.8%;
+  height: 70%;
+}
+.stephan .stephan__content--right {
+  display: flex;
+  padding: 120px 120px 10px 120px;
+  flex-direction: column;
+}
+.stephan .stephan__content--right .stephan__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.stephan .stephan__content--right .stephan__sous-titre {
+  margin-bottom: 55px;
+}
+.stephan .stephan__content--right .stephan__texte {
+  line-height: 2;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.tissus-artisanat {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+  padding-left: 150px;
+}
+.tissus-artisanat .tissus__image {
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.tissus-artisanat .tissus__content--right .tissus__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.tissus-artisanat .tissus__content--right .tissus__sous-titre {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.tissus-artisanat .tissus__content--right .tissus__texte {
+  margin: auto;
+  width: auto;
+}
+.tissus-artisanat .tissus__content--right .tissus__texte ul {
+  margin-top: 35px;
+  line-height: 2.5;
+  margin-left: -120px;
+}
+.tissus-artisanat .tissus__content--right .tissus__texte ul li {
+  list-style-type: circle;
 }
 
 /*# sourceMappingURL=style.css.map */
