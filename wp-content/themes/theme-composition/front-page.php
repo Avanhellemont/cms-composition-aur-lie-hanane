@@ -13,8 +13,27 @@ if( $bandeau['image_g'] && ['image_d'] && ['titre_g'] && ['titre_g']):
     <img class="banniere__img--g" src="<?php echo $bandeau['image_g']['sizes']['taille_slide']; ?>">
     <img class="image__img--d" src="<?php echo $bandeau['image_d']['sizes']['taille_slide']; ?>">
 </div>
-<h2 class="banniere__titre--g"><?php echo $bandeau['titre_g']; ?></h2>
-<h2 class="banniere__titre--d"><?php echo $bandeau['titre_d']; ?></h2>
+
+<div class="banniere__titre--g">
+    <div class="banniere__bloc--g">
+        <h2 class="banniere__titre--g"><?php echo $bandeau['titre_g']; ?></h2>
+        <div class="content__box--g">
+            <h2 class="banniere__titre-g--hover"><?php echo $bandeau['survol_g']['titre']; ?></h2>
+            <p class="banniere__texte-g--hover"><?php echo $bandeau['survol_g']['texte_g']; ?></p>
+        </div>
+    </div>
+</div>
+
+<div class="banniere__titre--d">
+<div class="banniere__bloc--d">
+    <h2 class="banniere__titre--d"><?php echo $bandeau['titre_d']; ?></h2>
+    <div class="content__box--d">
+    <h2 class="banniere__titre-d--hover"><?php echo $bandeau['survol_d']['titre']; ?></h2>
+    <p class="banniere__texte-d--hover"><?php echo $bandeau['survol_d']['texte_d']; ?></p>
+    </div>
+</div>
+</div>
+
 <?php endif; ?>
 
 

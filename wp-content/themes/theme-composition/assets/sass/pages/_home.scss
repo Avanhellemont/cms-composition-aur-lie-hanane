@@ -9,20 +9,60 @@
     width: 53%;
   }
 }
-.banniere__titre--g {
-  font-size: 25px;
-  font-weight: 300;
-  text-align: left;
+.banniere__bloc--g {
   background-color: white;
   padding: 70px;
-  width: 350px;
+  width: 400px;
   height: 20px;
   position: absolute;
   z-index: 1;
   left: 50px;
-  top: 640px;
+  top: 485px;
+  box-shadow: 0px 2px 10px 3px rgb(136 136 136 / 10%);
+  transition: 0, 6s ease-in-out;
+  &:hover {
+    transform: scaleY(1.5);
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+    .banniere__titre--g {
+      display: none;
+      transition: none;
+      transform: none;
+      transition: opacity 0, 6s;
+      opacity: 0;
+    }
+    .content__box--g {
+      display: block;
+      transform: scaleY(0.75);
+      .banniere__titre-g--hover {
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+        transform: translateY(-100px);
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .banniere__texte-g--hover {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        transform: translateY(-100px);
+      }
+    }
+  }
+  .banniere__titre--g {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 1;
+  }
+  .content__box--g {
+    display: none;
+  }
 }
-.banniere__titre--d {
+
+.banniere__bloc--d {
   font-size: 25px;
   font-weight: 300;
   text-align: left;
@@ -34,7 +74,51 @@
   position: absolute;
   z-index: 1;
   right: 50px;
-  top: 640px;
+  top: 485px;
+  box-shadow: 0px 2px 10px 3px;
+  transition: 0, 6s ease-in-out;
+  &:hover {
+    transform: scaleY(1.5);
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+    .banniere__titre--d {
+      display: none;
+      transition: none;
+      transform: none;
+      transition: opacity 0, 6s;
+      opacity: 0;
+    }
+    .content__box--d {
+      display: block;
+      transform: scaleY(0.75);
+      .banniere__titre-d--hover {
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+        transform: translateY(-100px);
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .banniere__texte-d--hover {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        transform: translateY(-100px);
+        color: white;
+      }
+    }
+  }
+
+  .banniere__titre--d {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 1;
+  }
+  .content__box--d {
+    display: none;
+  }
 }
 
 .intro {
