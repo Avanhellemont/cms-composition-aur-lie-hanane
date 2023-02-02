@@ -1,4 +1,5 @@
 <?php wp_footer();?>
+
 <footer>
 <div class="footer__banner">
 <!-------------------------------   1 er PARTIE    ----------------------------------->
@@ -7,7 +8,7 @@
     <!------------------------------- photo and text  + liens  ----------------------------------->
 
     <div class="footer__content">
-         <div class="footer__img__bloc">
+        <div class="footer__img__bloc">
             <img class="footer__img__content" src="<?php bloginfo('template_url'); ?>/assets/images/1500x1250_02.jpg" alt="image">
         
             <div class="footer__text__bloc">
@@ -38,7 +39,7 @@
 
 <!-------------------------------   GOOGLE MAP   -------------------------------------->
 <div class="footer__bottom">
-<div class="div1">
+    <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
         <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
     </div>
