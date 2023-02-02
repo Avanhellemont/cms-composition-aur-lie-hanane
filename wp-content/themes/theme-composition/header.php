@@ -8,15 +8,12 @@
 </head>
 <body>
 <header>
-<img class="header__logo--img" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-full.svg" alt="logo">
-
-<nav class="header__nav">
-        
-    
-    <?php wp_nav_menu(array( 'theme_location' => 'menu_principal' ))  ?>
+    <a href="<?php bloginfo( 'url' ); ?>"><img class="header__logo--img" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-full.svg" alt="logo"></a>
+   
+    <nav class="header__nav">
+        <?php wp_nav_menu(array( 'theme_location' => 'menu_principal' ))  ?>
     </nav>
 
-
-
-    <a href="#" class="header__button">Wishlist <img class="button__icon" src="<?php bloginfo('template_url'); ?>/assets/svg/bullet-list-black.svg" alt="logo"></a>
+    <a href="#" class="header__button">Wishlist <img class="button__icon" src="<?php bloginfo('template_url'); ?>/assets/svg/bullet-list.svg" alt="logo"></a>
+   
 </header>
