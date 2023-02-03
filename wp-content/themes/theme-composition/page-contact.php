@@ -18,7 +18,7 @@
     
     <div class="contact__container__icon__adress"><img class="contact__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="contact__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
     <p class="contact__mail">  <img class="contact__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="contact__info" href="#">info@meubles-composition.be</a></p>
-    <p class="footer__phone"> <img class="contact__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="contact__tel" href="">+32 (0)85 21 52 38</a> </p>
+    <p class="contact__phone"> <img class="contact__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="contact__tel" href="">+32 (0)85 21 52 38</a> </p>
 
 </div>
 <!--------------------------------------Bloc horaire-------->
