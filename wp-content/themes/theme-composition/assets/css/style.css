@@ -430,17 +430,17 @@ body {
   z-index: 10;
   margin-top: -5px;
   display: block;
-  /**********fermeture contact*/
+  /****************************** BLOC Horaire*********************/
+  /* fermeture de container horaire **/
+  /********** banner medium */
 }
 .page__contact .contact {
   /*****************************************BLOC Coordonnes**************************/
-  /****************************** BLOC Horaire*********************/
 }
 .page__contact .contact .banner__top {
   background: #000;
-  padding: 155px 0 0;
   transition: height 1s;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: row;
 }
@@ -448,7 +448,7 @@ body {
   max-width: 1500px;
   height: 540px;
   padding: 0 70px;
-  margin: 0 auto;
+  margin: 35px 534px 0px 24px;
   height: 100%;
   transition: max-width 1s;
   position: relative;
@@ -480,7 +480,12 @@ body {
   animation: fade 1s;
   line-height: 1.1;
 }
+.page__contact .contact .bloc__coordonnes--coordonnes {
+  display: flex;
+  flex-direction: row;
+}
 .page__contact .contact .bloc__coordonnes {
+  background-color: blue;
   font-family: "Proxima Nova", sans-serif;
   color: white;
   font-weight: 400;
@@ -488,8 +493,7 @@ body {
   line-height: 2;
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
-  margin-right: auto;
-  width: 30%;
+  width: 100%;
   height: 120px;
 }
 .page__contact .contact .contact__container__icon__adress {
@@ -524,26 +528,25 @@ body {
 }
 .page__contact .contact .contact__tel {
   text-decoration: none;
-}
-.page__contact .contact .contact__tel .contact__tel {
-  text-decoration: none;
   color: white;
   padding-left: 3%;
 }
-.page__contact .contact .contact__tel .contact__tel:hover {
+.page__contact .contact .contact__tel:hover {
   color: white;
 }
-.page__contact .contact .container__horaire {
-  width: 28%;
+.page__contact .container__horaire {
+  width: 30%;
   float: left;
   padding-top: 20px;
   margin-bottom: 70px;
+  background-color: rgb(6, 209, 57);
 }
-.page__contact .contact .container__horaire .contact__horaire {
+.page__contact .container__horaire .contact__horaire {
   background-color: black;
   color: white;
 }
-.page__contact .contact .container__horaire .contact__horaire .contact__bloc__heure {
+.page__contact .container__horaire .contact__horaire .contact__bloc__heure {
+  background-color: yellow;
   width: 100%;
   padding: 40px 0 35px 80px;
   position: relative;
@@ -552,7 +555,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-.page__contact .contact .container__horaire .contact__horaire .contact__horaire {
+.page__contact .container__horaire .contact__horaire .contact__horaire {
   display: flex;
   flex-direction: column;
   line-height: 1.1;
@@ -560,7 +563,7 @@ body {
   cursor: default;
   text-decoration: none;
 }
-.page__contact .contact .container__horaire .contact__horaire h5 {
+.page__contact .container__horaire .contact__horaire h5 {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -568,7 +571,59 @@ body {
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
 }
+.page__contact .banner__medium {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.page__contact .banner__medium .medium__itineraire--container {
+  width: 42%;
+  padding-top: 203px 0;
+  padding: 198px 0 0 134px;
+}
+.page__contact .banner__medium .medium__content__text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.page__contact .banner__medium .medium__content__img {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 0;
+}
+.page__contact .banner__medium .medium__map--container {
+  width: 58%;
+  height: 350px;
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-top: -63px;
+}
+.page__contact .banner__medium .medium__carte--map {
+  height: 658px;
+  border: 17px solid;
+  border: 1px solid;
+  margin: 0px;
+  /* margin-bottom: 154px; */
+  margin-top: -65px;
+}
+.page__contact .banner-bottom {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+}
 
-/**********fermeture page-contact*/
+/**********fermeture contact */
 
 /*# sourceMappingURL=style.css.map */
