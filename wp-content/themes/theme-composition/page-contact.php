@@ -22,9 +22,10 @@
     <p class="contact__phone"> <img class="contact__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="contact__tel" href="">+32 (0)85 21 52 38</a> </p>
 
 </div>
+</div>
 <!--------------------------------------Bloc horaire-------->
 
-
+<div class="bloc__coordonnes--horaires">
 <div class="container__horaire">
     <div class="contact__bloc__heure">
         <p class="contact__icon">
@@ -37,7 +38,6 @@
                         </ul>
                 </div>
     </div>
-</div>
 </div>
 </div>
 

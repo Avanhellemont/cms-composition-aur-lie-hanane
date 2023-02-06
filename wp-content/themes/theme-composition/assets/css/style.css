@@ -38,7 +38,7 @@ article a {
 }
 
 a:hover {
-  color: #f15d22;
+  color:black;
 }
 
 #accueil {
@@ -431,8 +431,6 @@ body {
   margin-top: -5px;
   display: block;
   /****************************** BLOC Horaire*********************/
-  /* fermeture de container horaire **/
-  /********** banner medium */
 }
 .page__contact .contact {
   /*****************************************BLOC Coordonnes**************************/
@@ -440,15 +438,17 @@ body {
 .page__contact .contact .banner__top {
   background: #000;
   transition: height 1s;
-  height: 400px;
+  margin-left: -146px;
+  height: 435px;
+  /* width: 1588px; */
   display: flex;
   flex-direction: row;
 }
 .page__contact .contact .container__banner {
-  max-width: 1500px;
-  height: 540px;
-  padding: 0 70px;
-  margin: 35px 534px 0px 24px;
+  max-width: 1505px;
+  /* height: 540px; */
+  padding: 0 260px 0;
+  margin: 17px 323px 10px 0px;
   height: 100%;
   transition: max-width 1s;
   position: relative;
@@ -466,7 +466,7 @@ body {
 }
 .page__contact .contact .trait {
   height: 1px;
-  width: 100%;
+  width: 90px;
   background: rgba(255, 255, 255, 0.2);
   position: absolute;
   right: calc(100% + 32px);
@@ -474,18 +474,21 @@ body {
   animation: scale 0.8s;
 }
 .page__contact .contact .titre {
+  font-family: "proxima-nova", sans-serif;
   font-size: 40px;
   font-weight: 300;
   color: white;
   animation: fade 1s;
   line-height: 1.1;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
 }
 .page__contact .contact .bloc__coordonnes--coordonnes {
   display: flex;
   flex-direction: row;
+  width: 600px;
 }
 .page__contact .contact .bloc__coordonnes {
-  background-color: blue;
   font-family: "Proxima Nova", sans-serif;
   color: white;
   font-weight: 400;
@@ -539,14 +542,9 @@ body {
   float: left;
   padding-top: 20px;
   margin-bottom: 70px;
-  background-color: rgb(6, 209, 57);
 }
-.page__contact .container__horaire .contact__horaire {
-  background-color: black;
-  color: white;
-}
-.page__contact .container__horaire .contact__horaire .contact__bloc__heure {
-  background-color: yellow;
+.page__contact .container__horaire .contact__bloc__heure {
+  background-color: red;
   width: 100%;
   padding: 40px 0 35px 80px;
   position: relative;
@@ -555,15 +553,17 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-.page__contact .container__horaire .contact__horaire .contact__horaire {
+.page__contact .container__horaire .contact__horaire {
   display: flex;
   flex-direction: column;
   line-height: 1.1;
   word-spacing: 0.5px;
   cursor: default;
   text-decoration: none;
+  background-color: black;
+  color: white;
 }
-.page__contact .container__horaire .contact__horaire h5 {
+.page__contact .container__horaire h5 {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -571,17 +571,18 @@ body {
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
 }
-.page__contact .banner__medium {
+
+.banner__medium {
   background-color: black;
   display: flex;
   flex-direction: row;
 }
-.page__contact .banner__medium .medium__itineraire--container {
+.banner__medium .medium__itineraire--container {
   width: 42%;
   padding-top: 203px 0;
   padding: 198px 0 0 134px;
 }
-.page__contact .banner__medium .medium__content__text {
+.banner__medium .medium__content__text {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   color: white;
@@ -590,7 +591,7 @@ body {
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
 }
-.page__contact .banner__medium .medium__content__img {
+.banner__medium .medium__content__img {
   position: relative;
   color: #fff;
   font-size: 18px;
@@ -599,7 +600,7 @@ body {
   padding: 15px;
   padding-left: 0;
 }
-.page__contact .banner__medium .medium__map--container {
+.banner__medium .medium__map--container {
   width: 58%;
   height: 350px;
   float: right;
@@ -607,7 +608,7 @@ body {
   z-index: 10;
   margin-top: -63px;
 }
-.page__contact .banner__medium .medium__carte--map {
+.banner__medium .medium__carte--map {
   height: 658px;
   border: 17px solid;
   border: 1px solid;
@@ -615,7 +616,9 @@ body {
   /* margin-bottom: 154px; */
   margin-top: -65px;
 }
-.page__contact .banner-bottom {
+
+/********** banner medium */
+.banner-bottom {
   max-width: 1500px;
   padding: 0 70px;
   margin: 0 auto;
