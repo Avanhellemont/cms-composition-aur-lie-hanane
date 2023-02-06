@@ -107,7 +107,7 @@ body {
 
 .banniere__img {
   display: flex;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 .banniere__img .banniere__img--g {
   width: 53%;
@@ -122,12 +122,11 @@ body {
   padding: 70px;
   width: 400px;
   height: 20px;
-  position: absolute;
   z-index: 1;
   left: 50px;
   top: 485px;
   box-shadow: 0px 2px 10px 3px rgba(136, 136, 136, 0.1);
-  transition: 0, 6s ease-in-out;
+  position: absolute;
 }
 .banniere__bloc--g:hover {
   transform: scaleY(1.5);
@@ -159,6 +158,18 @@ body {
   font-weight: 300;
   text-align: left;
   transform: translateY(-100px);
+  padding-bottom: 0;
+  margin-top: 0;
+}
+.banniere__bloc--g:hover .content__box--g .banniere__link-g--hover {
+  position: fixed;
+  top: 60px;
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.banniere__bloc--g:hover .content__box--g .banniere__link-g--hover img {
+  padding-left: 20px;
 }
 .banniere__bloc--g .banniere__titre--g {
   font-size: 25px;
@@ -168,6 +179,44 @@ body {
 }
 .banniere__bloc--g .content__box--g {
   display: none;
+}
+
+.banniere__btn {
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: relative;
+  top: -225px;
+  left: 565px;
+  z-index: 10;
+}
+.banniere__btn .button__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banniere__btn--d {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: relative;
+  top: -271px;
+  left: 1205px;
+  z-index: 10;
+}
+.banniere__btn--d .button__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .banniere__bloc--d {
@@ -212,11 +261,23 @@ body {
   padding-bottom: 20px;
 }
 .banniere__bloc--d:hover .content__box--d .banniere__texte-d--hover {
+  transform: translateY(-100px);
   font-size: 16px;
   font-weight: 300;
   text-align: left;
   transform: translateY(-100px);
   color: white;
+}
+.banniere__bloc--d:hover .content__box--d .banniere__link-d--hover {
+  position: fixed;
+  top: 60px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-weight: 700;
+}
+.banniere__bloc--d:hover .content__box--d .banniere__link-d--hover img {
+  padding-left: 20px;
 }
 .banniere__bloc--d .banniere__titre--d {
   font-size: 25px;
@@ -273,16 +334,32 @@ body {
   word-spacing: 0.5px;
   font-weight: 400;
   width: 450px;
+  margin-bottom: 25px;
 }
 .intro .intro__alltext .intro__secondcontent .intro__link {
   color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.intro .intro__alltext .intro__secondcontent .intro__link img {
+  padding-left: 20px;
 }
 .intro .intro__img {
   width: 40%;
   justify-content: space-between;
+  margin-left: 150px;
 }
 
-.milieu__text {
+.milieu__bloc--gris {
+  width: 40%;
+  height: 720px;
+  background: #f6f6f6;
+}
+.milieu__bloc--gris .milieu__logo {
+  position: absolute;
+  top: 1975px;
+  left: 245px;
+}
+.milieu__bloc--gris .milieu__text {
   font-size: 40px;
   font-weight: 700;
   width: 48%;
@@ -292,27 +369,40 @@ body {
   padding-bottom: 150px;
   text-align: left;
 }
-
-.milieu__bloc--gris {
-  width: 40%;
-  height: 720px;
-  background: #f6f6f6;
+.milieu__bloc--gris .milieu__link {
+  position: absolute;
+  top: 2300px;
+  left: 250px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
-
-.tissus__img {
-  width: 50%;
-  margin-right: 50px;
+.milieu__bloc--gris .milieu__link img {
+  padding-left: 20px;
 }
 
 .tissus {
   display: flex;
 }
-
-.tissus__content--right {
+.tissus .tissus__img {
+  width: 50%;
+  margin-right: 50px;
+}
+.tissus .tissus__content--right {
   font-weight: 300;
   line-height: 2;
   margin-right: 70px;
   margin-top: 50px;
+  margin-bottom: 30px;
+}
+.tissus .tissus__content--right .tissus__text--bottom {
+  margin-bottom: 50px;
+}
+.tissus .tissus__content--right .tissus__link {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.tissus .tissus__content--right .tissus__link img {
+  padding-left: 20px;
 }
 
 .diaporama {
