@@ -24,8 +24,8 @@
         <div class="footer__bloc__heure">
             <p class="footer__icon"><img class="footer__img__time" src="<?php bloginfo('template_url'); ?>/assets/svg/time-clock.svg" alt=""></p>
             <div class="footer__horaire">
-                <h5>Horaire</h5>
-                    <ul>
+                <h5>Horaires</h5>
+                    <ul class="footer__horaire--horaire">
                         <li>lundi > dimanche : (Fermé le mardi)</li>
                         <li>10h > 18h</li>
                     </ul>

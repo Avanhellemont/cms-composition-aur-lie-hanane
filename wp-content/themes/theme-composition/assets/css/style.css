@@ -126,14 +126,19 @@ a.header__button:hover {
 .footer__img__bloc {
   display: flex;
   flex-direction: row;
-  width: 735px;
+  width: 712px;
   justify-content: space-around;
+  margin-left: -59px;
 }
 
 .footer__img__content {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.footer__img__time {
+  padding-top: 7px;
 }
 
 .footer__text__bloc {
@@ -156,22 +161,26 @@ a.header__button:hover {
   background-color: black;
   color: white;
 }
+.footer__horaire .footer__horaire--horaire {
+  width: 270px;
+}
 .footer__horaire .footer__bloc__heure {
-  width: 100%;
-  padding: 40px 0 35px 80px;
+  width: 541px;
+  /* margin-left: -20px; */
+  /* margin-right: -6px; */
+  padding: 34px 189px 80px 67px;
   position: relative;
   float: right;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 .footer__horaire .footer__horaire {
   display: flex;
   flex-direction: column;
-  line-height: 1.1;
-  word-spacing: 0.5px;
-  cursor: default;
-  text-decoration: none;
+  line-height: 1.9;
+  word-spacing: -0.5px;
+  padding-left: 28px;
 }
 .footer__horaire h5 {
   font-family: "Proxima Nova", sans-serif;
@@ -452,7 +461,6 @@ body {
   position: relative;
   overflow: hidden;
   z-index: 10;
-  margin-top: -5px;
   display: block;
   /****************************** BLOC Horaire*********************/
 }
@@ -560,13 +568,9 @@ body {
   color: white;
 }
 .page__contact .container__horaire {
-  width: 30%;
   float: left;
-  padding-top: 20px;
-  margin-bottom: 70px;
 }
 .page__contact .container__horaire .contact__bloc__heure {
-  background-color: red;
   width: 100%;
 }
 .page__contact .container__horaire .contact__horaire {
