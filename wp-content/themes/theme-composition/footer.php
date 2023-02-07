@@ -41,7 +41,7 @@
 <div class="footer__bottom">
     <div class="div1">
         <h2 class="footer__title">Rendez-nous visite !</h2>
-        <a class="google__map" href="#">Google map <img src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
+        <a class="google__map" href="#">Google map <img class="footer__fleche" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
     </div>
 <!-------------------------------   COORDONNES   ------------------------------------>
 <div class="div2">
