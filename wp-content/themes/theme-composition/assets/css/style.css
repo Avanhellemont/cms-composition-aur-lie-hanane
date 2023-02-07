@@ -1,7 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Retrait des puces sur les listes */
+ol, ul {
   list-style: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -102,7 +113,7 @@ header .header__button:hover .button__icon .svg__bullet-list {
   src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Bold.otf") format("opentype");
 }
 body {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Proxima Nova";
 }
 
 .banniere__img {
@@ -548,6 +559,115 @@ body {
 }
 .tissus-artisanat .tissus__content--right .tissus__texte ul li {
   list-style-type: circle;
+}
+
+.firstpart {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+.firstpart h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 550px;
+  padding-left: 75px;
+}
+.firstpart .firstpart__image {
+  width: 70%;
+  margin-left: 75px;
+  position: absolute;
+  top: 440px;
+}
+
+.secondpart {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 75px;
+}
+.secondpart .secondpart__content--left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 95px;
+}
+.secondpart .secondpart__content--left .secondpart__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  width: 250px;
+}
+.secondpart .secondpart__content--left .secondpart__sous-titre {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.secondpart .secondpart__content--left .secondpart__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.secondpart .secondpart__content--right {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 175px 10px 150px 250px;
+  width: 94.5%;
+  height: 100%;
+}
+.secondpart .secondpart__content--right .secondpart__span {
+  font-weight: 500;
+  margin-bottom: 35px;
+  letter-spacing: 1.2px;
+  margin-left: -130px;
+}
+.secondpart .secondpart__content--right ul {
+  margin-top: 35px;
+  line-height: 2.5;
+  margin-left: -120px;
+}
+.secondpart .secondpart__content--right ul li {
+  list-style-type: disc;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  letter-spacing: 1.2px;
+  padding: 0 0 0 60px;
+}
+
+.lastpart {
+  display: flex;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  margin-bottom: 120px;
+}
+.lastpart .lastpart__image {
+  width: 46.8%;
+  height: 70%;
+}
+.lastpart .lastpart__content--right {
+  display: flex;
+  padding: 120px 120px 10px 120px;
+  flex-direction: column;
+}
+.lastpart .lastpart__content--right .lastpart__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.lastpart .lastpart__content--right .lastpart__sous-titre {
+  margin-bottom: 55px;
+}
+.lastpart .lastpart__content--right .lastpart__texte {
+  line-height: 2;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

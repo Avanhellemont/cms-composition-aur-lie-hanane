@@ -64,6 +64,9 @@ if( $tissus['tissus_image'] && $tissus['tissus_titre'] && $tissus['tissus_sousti
     <?php endif; ?>
 
 </main>
+<?php get_footer() ?>
+
+
 
 
 
