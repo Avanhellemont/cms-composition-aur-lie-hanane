@@ -83,7 +83,6 @@
   }
 }
 
-
 /*************************************************   DIV 1   **************************************/
 
 .footer__bottom {
@@ -105,8 +104,7 @@
   font-family: "Proxima Nova", sans-serif;
   color: rgb(19, 18, 18);
   margin: 0 0 15px;
-  padding-top: 80px;
-  padding-left: 80px;
+  padding: 80px 0 50px 80px;
   font-size: xx-large;
 }
 
@@ -117,7 +115,9 @@
   color: black;
   margin-top: 100px;
 }
-
+a:hover {
+    color: black
+}
 .google__map {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
@@ -127,9 +127,7 @@
   text-decoration: none;
   font-weight: 700;
 }
-
 /*************************************************   DIV 2   **************************************/
-
 .div2 {
 //background-color: blue;
   font-family: "Proxima Nova", sans-serif;

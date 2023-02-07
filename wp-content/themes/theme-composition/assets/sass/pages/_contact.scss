@@ -11,23 +11,21 @@
     .contact{ 
     
         .banner__top{
-        background: #000;
-        transition: height 1s;
-        margin-left: -146px;
-        height: 435px;
-        /* width: 1588px; */
-        display: flex;
-        flex-direction: row;
+            background: #000;
+            transition: height 1s;
+            /* margin-left: -146px; */
+            height: 435px;
+            /* width: 1588px; */
+            display: flex;
+            flex-direction: row;
         }
 
         .container__banner{
-            max-width: 1505px;
-            /* height: 540px; */
-            padding: 0 260px 0;
-            margin: 17px 323px 10px 0px;
+            max-width: 1493px;
+            padding: 0 263px 0 117px;
+            margin: 19px 483px 1px 5px;
             height: 100%;
-            transition: max-width 1s;
-            position: relative;
+    
             
         }
         .content{
@@ -38,6 +36,7 @@
         }
         .titre__container{
             position: relative;
+        
             width: 42%;
             float: left;
         }
@@ -63,8 +62,9 @@
 /*****************************************BLOC Coordonnes**************************/
 .bloc__coordonnes--coordonnes{
     display: flex;
-	flex-direction: row;
-    width: 600px;
+    flex-direction: row;
+    margin-right: 106px;
+    margin-left: -321px;
 
 }
 
@@ -138,14 +138,8 @@ padding-left: 3%;
     //background-color: rgb(6, 209, 57);
 
 .contact__bloc__heure{
-    background-color:red;
+    background-color: red;
     width: 100%;
-    padding: 40px 0 35px 80px;
-    position: relative;
-    float: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 .contact__horaire{
     

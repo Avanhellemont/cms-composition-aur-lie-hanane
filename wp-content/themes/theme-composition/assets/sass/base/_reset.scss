@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
+}
+
+/* Remise à zéro des marges et des paddings de la page*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Retrait des puces sur les listes */
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
