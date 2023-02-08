@@ -1,0 +1,173 @@
+.diaporama {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 200px;
+    padding-bottom: 550px;
+    padding-left: 75px;
+  }
+  .diaporama__image {
+    width: 70%;
+    margin-left: 75px;
+    position: absolute;
+    top: 440px;
+  }
+}
+.etude {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 75px;
+  .etude__content--left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 95px;
+    .etude__titre {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 35px;
+      width: 250px;
+    }
+    .etude__sous-titre {
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 70px;
+    }
+    .etude__text--firstpart {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 2;
+      letter-spacing: 1.2px;
+      margin-bottom: 50px;
+      width: 375px;
+    }
+    .etude__text--secondpart {
+      @extend .etude__text--firstpart;
+    }
+  }
+  .etude__content--right {
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 175px 10px 150px 250px;
+    width: 120%;
+    height: 100%;
+    .etude__span {
+      font-weight: 500;
+      margin-bottom: 35px;
+      letter-spacing: 1.2px;
+      margin-left: -130px;
+    }
+    ul {
+      margin-top: 35px;
+      line-height: 2.5;
+      margin-left: -120px;
+      li {
+        list-style-type: disc;
+        color: #fff;
+        font-weight: 300;
+        width: 100%;
+        letter-spacing: 1.2px;
+        padding: 0 0 0 60px;
+      }
+    }
+  }
+}
+.stephan {
+  display: flex;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  margin-bottom: 120px;
+  .stephan__image {
+    width: 42.3%;
+    height: 70%;
+  }
+  .stephan__content--right {
+    display: flex;
+    padding: 120px 120px 10px 120px;
+    flex-direction: column;
+    .stephan__titre {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    .stephan__sous-titre {
+      margin-bottom: 55px;
+    }
+    .stephan__texte {
+      line-height: 2;
+      letter-spacing: 1.2px;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+  }
+}
+.tissus-artisanat {
+  padding-bottom: 200px;
+  padding-left: 150px;
+  .tissus__image {
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+    margin-bottom: 100px;
+  }
+  .tissus__titre {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-left: 125px;
+  }
+  .tissus__sous-titre {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-left: 130px;
+  }
+  .tissus__content {
+    display: flex;
+    justify-content: flex-end;
+
+    .tissus__content--left {
+      width: 355px;
+      margin-right: 22px;
+
+      .tissus__texte {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2;
+        color: black;
+        letter-spacing: 1.2px;
+        margin-bottom: 30px;
+        width: 355px;
+      }
+      p {
+        @extend .tissus__texte;
+      }
+    }
+    .tissus__column--right {
+      margin-right: 250px;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 2;
+      color: black;
+      letter-spacing: 1.2px;
+      width: 355px;
+      padding-top: 30px;
+
+      ul {
+        margin-left: 15px;
+        li {
+          list-style-type: circle;
+        }
+      }
+    }
+  }
+}

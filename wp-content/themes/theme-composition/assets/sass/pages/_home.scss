@@ -1,0 +1,303 @@
+.banniere__img {
+  display: flex;
+  margin-bottom: 200px;
+  .banniere__img--g {
+    width: 53%;
+    position: relative;
+  }
+  .banniere__img--d {
+    width: 53%;
+  }
+}
+
+.banniere__bloc--g {
+  background-color: white;
+  padding: 70px;
+  width: 400px;
+  height: 20px;
+  z-index: 1;
+  left: 50px;
+  top: 485px;
+  box-shadow: 0px 2px 10px 3px rgb(136 136 136 / 10%);
+  position: absolute;
+
+  &:hover {
+    transform: scaleY(1.5);
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+    .banniere__titre--g {
+      display: none;
+      transition: none;
+      transform: none;
+      transition: opacity 0, 6s;
+      opacity: 0;
+    }
+    .content__box--g {
+      display: block;
+      transform: scaleY(0.75);
+      .banniere__titre-g--hover {
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+        transform: translateY(-100px);
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .banniere__texte-g--hover {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        transform: translateY(-100px);
+        padding-bottom: 0;
+        margin-top: 0;
+      }
+      .banniere__link-g--hover {
+        position: fixed;
+        top: 60px;
+        color: black;
+        text-decoration: underline;
+        font-weight: 700;
+        img {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  .banniere__titre--g {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 1;
+  }
+  .content__box--g {
+    display: none;
+  }
+}
+.banniere__btn {
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+  display: flex;
+  position: relative;
+  top: -225px;
+  left: 565px;
+  z-index: 10;
+
+  .button__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.banniere__btn--d {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+  display: flex;
+  position: relative;
+  top: -271px;
+  left: 1205px;
+  z-index: 10;
+
+  .button__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.banniere__bloc--d {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 70px;
+  width: 350px;
+  height: 20px;
+  position: absolute;
+  z-index: 1;
+  right: 50px;
+  top: 485px;
+  box-shadow: 0px 2px 10px 3px;
+  transition: 0, 6s ease-in-out;
+  &:hover {
+    transform: scaleY(1.5);
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+    .banniere__titre--d {
+      display: none;
+      transition: none;
+      transform: none;
+      transition: opacity 0, 6s;
+      opacity: 0;
+    }
+    .content__box--d {
+      display: block;
+      transform: scaleY(0.75);
+      .banniere__titre-d--hover {
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+        transform: translateY(-100px);
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .banniere__texte-d--hover {
+        transform: translateY(-100px);
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        transform: translateY(-100px);
+        color: white;
+      }
+      .banniere__link-d--hover {
+        position: fixed;
+        top: 60px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-weight: 700;
+        img {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  .banniere__titre--d {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 1;
+  }
+  .content__box--d {
+    display: none;
+  }
+}
+
+.intro {
+  display: flex;
+  margin-bottom: 150px;
+  .intro__alltext {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    .intro__firstcontent {
+      background-color: black;
+      padding: 130px 140px 130px 80px;
+      .intro_firsttext {
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+        text-align: left;
+        line-height: 150%;
+      }
+    }
+    .intro__secondcontent {
+      background-color: rgb(255, 255, 255);
+      padding: 50px;
+      height: 270px;
+      width: 400px;
+      .intro__titre {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        width: 90%;
+      }
+      .intro__secondtext {
+        line-height: 200%;
+        font-size: 16px;
+        font-family: "Proxima Nova", sans-serif;
+        letter-spacing: 0.3px;
+        word-spacing: 0.5px;
+        font-weight: 400;
+        width: 450px;
+        margin-bottom: 25px;
+      }
+      .intro__link {
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        img {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  .intro__img {
+    width: 40%;
+    justify-content: space-between;
+    margin-left: 150px;
+  }
+}
+
+.milieu__bloc--gris {
+  width: 40%;
+  height: 720px;
+  background: #f6f6f6;
+  .milieu__logo {
+    position: absolute;
+    top: 1975px;
+    left: 245px;
+  }
+  .milieu__text {
+    font-size: 40px;
+    font-weight: 700;
+    width: 48%;
+    margin-left: 250px;
+    position: absolute;
+    padding-top: 270px;
+    padding-bottom: 150px;
+    text-align: left;
+  }
+  .milieu__link {
+    position: absolute;
+    top: 2300px;
+    left: 250px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    img {
+      padding-left: 20px;
+    }
+  }
+}
+
+.tissus {
+  display: flex;
+  .tissus__img {
+    width: 50%;
+    margin-right: 50px;
+  }
+  .tissus__content--right {
+    font-weight: 300;
+    line-height: 2;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    .tissus__text--bottom {
+      margin-bottom: 50px;
+    }
+    .tissus__link {
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      img {
+        padding-left: 20px;
+      }
+    }
+  }
+}
