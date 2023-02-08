@@ -5,10 +5,12 @@
 <!-- DIAPORAMA PART -->
 <?php 
 $tissus = get_field('tissus');
+$diaporama = get_field('diaporama');
+
 if( $tissus['tissus_image'] ):
 ?>
  <section class="diaporama">
-    <h1>Nous prenons soin de votre schéma de vie.</h1>
+    <h1><?php echo $diaporama['titre']; ?></h1>
     <img class="diaporama__image" src="<?php echo $tissus['tissus_image']['sizes']['taille_slide']; ?>">
 </section>
   
@@ -54,11 +56,14 @@ $tissus = get_field('tissus');
 if( $tissus['tissus_image'] && $tissus['tissus_titre'] && $tissus['tissus_soustitre'] && $tissus['tissus_texte']):
 ?>
  <section class="tissus-artisanat">
-    <div class="tissus__content--right">
-        <img class="tissus__image" src="<?php echo $tissus['tissus_image']['sizes']['taille_slide']; ?>">
-        <h2 class="tissus__titre"><?php echo $tissus['tissus_titre']; ?></h2>
-        <p class="tissus__sous-titre"><?php echo $tissus['tissus_soustitre']; ?></p>
-        <p class="tissus__texte"><?php echo $tissus['tissus_texte']; ?></p>
+    
+    <img class="tissus__image" src="<?php echo $tissus['tissus_image']['sizes']['taille_slide']; ?>">
+    <h2 class="tissus__titre"><?php echo $tissus['tissus_titre']; ?></h2>
+    <p class="tissus__sous-titre"><?php echo $tissus['tissus_soustitre']; ?></p>
+    <div class="tissus__content">
+        <div class="tissus__content--left">
+            <p class="tissus__texte"><?php echo $tissus['tissus_texte']; ?></p>
+        </div>
     </div>
     </section>
     <?php endif; ?>

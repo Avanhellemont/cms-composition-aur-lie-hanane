@@ -461,15 +461,16 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 2;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
   margin-bottom: 50px;
+  width: 375px;
 }
 .etude .etude__content--right {
   background-color: black;
   color: white;
   height: 100%;
   padding: 175px 10px 150px 250px;
-  width: 94.5%;
+  width: 120%;
   height: 100%;
 }
 .etude .etude__content--right .etude__span {
@@ -502,7 +503,7 @@ body {
   margin-bottom: 120px;
 }
 .stephan .stephan__image {
-  width: 46.8%;
+  width: 42.3%;
   height: 70%;
 }
 .stephan .stephan__content--right {
@@ -526,8 +527,6 @@ body {
 }
 
 .tissus-artisanat {
-  display: flex;
-  flex-direction: column;
   padding-bottom: 200px;
   padding-left: 150px;
 }
@@ -535,29 +534,53 @@ body {
   width: 70%;
   display: flex;
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 70px;
   margin-bottom: 100px;
 }
-.tissus-artisanat .tissus__content--right .tissus__titre {
+.tissus-artisanat .tissus__titre {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 35px;
+  margin-left: 125px;
 }
-.tissus-artisanat .tissus__content--right .tissus__sous-titre {
+.tissus-artisanat .tissus__sous-titre {
+  font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 25px;
+  margin-left: 130px;
 }
-.tissus-artisanat .tissus__content--right .tissus__texte {
-  margin: auto;
-  width: auto;
+.tissus-artisanat .tissus__content {
+  display: flex;
+  justify-content: flex-end;
 }
-.tissus-artisanat .tissus__content--right .tissus__texte ul {
-  margin-top: 35px;
-  line-height: 2.5;
-  margin-left: -120px;
+.tissus-artisanat .tissus__content .tissus__content--left {
+  width: 355px;
+  margin-right: 22px;
 }
-.tissus-artisanat .tissus__content--right .tissus__texte ul li {
+.tissus-artisanat .tissus__content .tissus__content--left .tissus__texte, .tissus-artisanat .tissus__content .tissus__content--left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: black;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+  width: 355px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right {
+  margin-right: 250px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: black;
+  letter-spacing: 1.2px;
+  width: 355px;
+  padding-top: 30px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right ul {
+  margin-left: 15px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right ul li {
   list-style-type: circle;
 }
 
@@ -608,13 +631,14 @@ body {
   line-height: 2;
   letter-spacing: 2px;
   margin-bottom: 50px;
+  width: 375px;
 }
 .secondpart .secondpart__content--right {
   background-color: black;
   color: white;
   height: 100%;
   padding: 175px 10px 150px 250px;
-  width: 94.5%;
+  width: 120%;
   height: 100%;
 }
 .secondpart .secondpart__content--right .secondpart__span {
