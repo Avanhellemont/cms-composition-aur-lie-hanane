@@ -51,11 +51,6 @@
     font-weight: 700;
     
   }
-
-  .footer__horaire{
-    background-color: black;
-    color: white;
-
     .footer__horaire--horaire{
     width: 270px;
     }
@@ -72,16 +67,20 @@
     flex-direction: row;
     justify-content: center;
   }
+  
   .footer__horaire{
     display: flex;
     flex-direction: column;
     line-height: 1.9;
     word-spacing: -0.5px;
     padding-left: 28px; 
+    background-color: black;
+    color: white;
+    margin-right: 60px;
   }
 
   h5{
-      font-family: "Proxima Nova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
@@ -123,9 +122,8 @@
   color: black;
   margin-top: 100px;
 }
-a:hover {
-    color: black
-}
+
+
 .google__map {
   font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
@@ -134,8 +132,11 @@ a:hover {
   padding-left: 80px;
   text-decoration: none;
   font-weight: 700;
-}
 
+  &:hover {
+    color: black
+}
+}
 .footer__fleche{
   margin-left:20px;
   transition: transform 0.3s;
