@@ -1,0 +1,231 @@
+.page__contact{
+    font-family: "proxima-nova", sans-serif;
+    color: #000;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    //margin-top: -5px;
+    display: block;
+
+    .contact{ 
+    
+        .banner__top{
+            background: #000;
+            transition: height 1s;
+            /* margin-left: -146px; */
+            height: 435px;
+            /* width: 1588px; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container__banner{
+            max-width: 1493px;
+            padding: 0 263px 0 117px;
+            margin: 19px 483px 1px 5px;
+            height: 100%;
+    
+            
+        }
+        .content{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            display: inline-block;
+        }
+        .titre__container{
+            position: relative;
+        
+            width: 42%;
+            float: left;
+        }
+        .trait{
+            height: 1px;
+            width: 90px;
+            background: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            right: calc(100% + 32px);
+            top: 23px;
+            animation: scale .8s;
+        }
+        .titre{
+            font-family: "proxima-nova", sans-serif;
+            font-size: 40px;
+            font-weight:300;
+            color: white;
+            animation: fade 1s;
+            line-height: 1.1;
+            letter-spacing: 0.3px;
+            word-spacing: 0.5px;
+        }
+/*****************************************BLOC Coordonnes**************************/
+.bloc__coordonnes--coordonnes{
+    display: flex;
+    flex-direction: row;
+    margin-right: 106px;
+    margin-left: -321px;
+
+}
+
+.bloc__coordonnes {
+    //background-color: blue;
+    font-family: "Proxima Nova", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    word-spacing: 0.5px;
+    width: 100%;
+    height: 120px;
+}
+
+.contact__container__icon__adress {
+display: flex;
+flex-direction: row;
+}
+
+.contact_img_adress {
+width: 18px;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.contact__adress {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+color:white;
+//  display: flex;
+flex-direction: row;
+padding-left: 3%;
+}
+
+.contact__mail {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+}
+
+.contact__info {
+font-family: "Proxima Nova", sans-serif;
+font-size: 16px;
+text-decoration: none;
+color:white;
+padding-left: 3%;
+}
+
+.contact__tel {
+    text-decoration: none;
+
+    color:white;
+    padding-left: 3%;
+}
+.contact__tel:hover{
+    //background-color: #000;
+    color: white;
+}
+}
+
+/****************************** BLOC Horaire*********************/
+.container__horaire{
+    //width: 30%;
+    float: left;
+    //padding-top: 20px;
+    //margin-bottom: 70px;
+    //background-color: rgb(6, 209, 57);
+
+.contact__bloc__heure{
+    //background-color: red;
+    width: 100%;
+}
+.contact__horaire{
+    
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    word-spacing: 0.5px;
+    cursor: default;
+    text-decoration:none; 
+    background-color: black;
+    color: white; 
+}
+
+h5{
+font-family: "Proxima Nova", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.3px;
+word-spacing: 0.5px;
+}
+}
+}
+
+.banner__medium{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    
+.medium__itineraire--container{
+        width: 42%;
+    padding-top: 203px 0;
+    padding: 198px 0 0 134px;
+    
+}   
+.medium__content__text{
+font-family: "Proxima Nova", sans-serif;
+font-weight: 400;
+color: white;
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.3px;
+word-spacing: 0.5px;
+}
+.medium__content__img{
+    //color: white;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 0;
+}
+.medium__map--container{
+    //background-color: darkmagenta;z-index: 3;
+    width: 58%;
+    height: 350px;
+    float: right;
+    position: relative;
+    //background: #56565a;
+    z-index: 10;
+    //background-repeat: no-repeat;
+        margin-top: -63px;
+}
+.medium__carte--map{
+    //width: 758px;
+    height: 658px;
+    border: 17px solid;
+    border: 1px solid;
+    margin: 0px;
+    /* margin-bottom: 154px; */
+    margin-top: -65px
+}
+
+} /********** banner medium */
+.banner-bottom {
+    max-width: 1500px;
+    padding: 0 70px;
+    margin: 0 auto;
+    height: 100%;
+    transition: max-width 1s;
+    position: relative;
+}
+
+
+
+
+

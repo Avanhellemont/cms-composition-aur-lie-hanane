@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -5,14 +6,40 @@
 
 *, *:before, *:after {
   box-sizing: border-box;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Remise à zéro des marges et des paddings de la page*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+>>>>>>> 56abe916d09153ffeb82cdc0110e8b7209e191e3
 }
 
 /* Retrait des puces sur les listes */
 
 ol, ul {
+<<<<<<< HEAD
   list-style: none;
 }
 
 a {
   text-decoration: none;
+=======
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+>>>>>>> 56abe916d09153ffeb82cdc0110e8b7209e191e3
 }

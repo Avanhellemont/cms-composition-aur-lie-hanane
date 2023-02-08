@@ -1,0 +1,342 @@
+/*************************************************   1   PARTIE**************************************/
+.footer__banner{
+  padding: 30px;
+  //background-color:burlywood;
+
+}
+.footer__top__content{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.footer__content {
+  //background-color:crimson;
+  width: 150px;
+  height: 150px;
+  //margin-bottom: 80%;
+ // margin-left: 40%;
+}
+
+.footer__img__bloc{
+  //background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 712px;
+    justify-content: space-around;
+    margin-left: -59px;
+}
+  .footer__img__content {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .footer__img__time{
+    padding-top: 7px;
+  }
+
+  .footer__text__bloc{
+    font-family: "Proxima Nova", sans-serif;
+    margin: 45px 0px 0px -244px;
+}
+  
+  .footer__content__text {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 16px;
+    color: black;
+    outline:0;
+    text-decoration: none;
+    background-color: transparent;
+    cursor:pointer;
+    font-weight: 700;
+    
+  }
+    .footer__horaire--horaire{
+    width: 270px;
+    }
+
+  
+  .footer__bloc__heure{
+    width: 541px;
+    /* margin-left: -20px; */
+    /* margin-right: -6px; */
+    padding: 34px 189px 80px 67px;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer__horaire{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    word-spacing: -0.5px;
+    padding-left: 28px; 
+    background-color: black;
+    color: white;
+    margin-right: 60px;
+  }
+
+  h5{
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+  }
+
+
+/*************************************************   DIV 1   **************************************/
+
+.footer__bottom {display: flex;
+    flex-direction: row;
+    width: 1403px;
+    /* margin-right: 20px; */
+    margin-left: 61px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.div1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  //background-color: red;
+  margin-right: auto;
+  color: black;
+  width: 33%;
+}
+
+.footer__title {
+  font-family: "Proxima Nova", sans-serif;
+  color: rgb(19, 18, 18);
+  margin: 0 0 15px;
+  padding: 80px 0 50px 80px;
+  font-size: xx-large;
+}
+
+.footer__container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  color: black;
+  margin-top: 100px;
+}
+
+
+.google__map {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: rgb(19, 18, 18);
+  padding-top: 120px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    color: black
+}
+}
+.footer__fleche{
+  margin-left:20px;
+  transition: transform 0.3s;
+  transform: translate3d(-3px, 0, 0);
+}
+/*************************************************   DIV 2   **************************************/
+.div2 {
+//background-color: blue;
+  font-family: "Proxima Nova", sans-serif;
+  color: black;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+  margin-right: auto;
+  margin-top: auto;
+  width: 30%;
+  height: 120px;
+}
+
+.footer__container__icon__adress {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_img_adress {
+  width: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer__adress {font-family: "Proxima Nova", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+}
+
+
+.footer__mail {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer__info {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding-left: 3%;
+    font-weight: 400;
+}
+
+.footer__phone {
+  text-decoration: none;
+
+  .footer__tel {
+    color: black;
+    padding-left: 3%;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding-left: 3%;
+    font-weight: 400;
+  }
+}
+/*************************************************   DIV 3   **************************************/
+.div3 {
+  //background-color: chartreuse;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  width: 30%;
+  margin-top: 50px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+
+.footer__icons {
+  //background-color: aqua;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  //margin-right: 100px;
+  margin-bottom: 15px;
+  //transition-duration: 0.4s;
+  //cursor: pointer;
+}
+
+.footer__facebook {
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+}
+
+.footer__facebook {
+  background-color: rgb(248, 242, 242);
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__facebook:hover {
+  background-color: #131010;
+  color: white;
+}
+
+.footer__img__facebook {
+  width: 12px;
+  margin-top: 5px;
+}
+
+.footer__insta {
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__img__insta {
+  width: 22px;
+  margin-top: 13px;
+  
+}
+
+.footer__insta:hover {
+  background-color: #131010;
+  color: white;
+}
+
+.footer__facebook {
+  background-color: white;
+  color: black;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.footer__facebook:hover {
+  background-color: #131010;
+  color: white;
+}
+
+.footer__copy__confid {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  //margin-right: 100px;
+  //cursor: pointer;
+}
+
+.footer__copy {
+  
+    padding: 15px 5px;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    transition: color 0.6s;
+}
+
+.footer__confid {
+    padding: 15px 5px;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    transition: color 0.6s;
+}
+
+.footer__tva {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    transition: color 0.6s;
+}
