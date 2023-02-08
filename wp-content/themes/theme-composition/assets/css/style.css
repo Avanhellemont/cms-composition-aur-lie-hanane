@@ -113,7 +113,7 @@ header .header__button:hover .button__icon .svg__bullet-list {
   src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Bold.otf") format("opentype");
 }
 body {
-  font-family: "Proxima Nova, sans-serif";
+  font-family: "Proxima Nova", sans-serif;
 }
 
 .banniere__img {
