@@ -883,7 +883,7 @@ body {
   margin-top: -65px;
 }
 
-/********** banner medium */
+/********** **********************banner medium */
 .banner-bottom {
   max-width: 1500px;
   padding: 0 70px;
@@ -891,6 +891,45 @@ body {
   height: 100%;
   transition: max-width 1s;
   position: relative;
+  background-color: red;
+}
+
+/********** ********************** Banner Bottom */
+.banner__bottom {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+  font-family: "proxima-nova", sans-serif;
+  color: #000;
+  line-height: 1;
+}
+
+.bottom __content {
+  background-color: yellow;
+  padding-top: 63px;
+  font-family: "proxima-nova", sans-serif;
+  color: black;
+}
+
+.banner__bottom--tect--container {
+  background-color: green;
+}
+
+.titre--question {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.sous-titre {
+  font-size: 22px;
+  font-weight: 300;
 }
 
 /*************************************************   1   PARTIE**************************************/

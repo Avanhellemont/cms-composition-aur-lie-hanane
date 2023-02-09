@@ -57,11 +57,17 @@
 
     </div>
 
-
 <!------------------------------------ BANNER Bottom -->
     <div class="banner__bottom">
         <div class="bottom__content">
-
+            <div class="banner__bottom--text--container">
+                <div class="titre--question">
+                    Une question 
+                    <br> 
+                    Une demande d'offre ?
+                </div> 
+                <div class="sous-titre"> Formulaire de contact</div>
+            </div>
         </div>
     </div>
 
