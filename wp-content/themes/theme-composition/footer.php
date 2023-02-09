@@ -31,8 +31,8 @@
                     </ul>
             </div>
         </div>
-        <h6><p><a href="#">&#169 COMPOSITION 2019 - </a><a href="#"> POLITIQUE DE CONFIDENTIALITE</a> </p></h6>
-        <p>TVA : BE0872574089</p>
+        <!--<h6><p><a href="#">&#169 COMPOSITION 2019 - </a><a href="#"> POLITIQUE DE CONFIDENTIALITE</a> </p></h6>
+        <p>TVA : BE0872574089</p> -->
     </div>
 </div>
 <!-------------------------------   2 eme PARTIE   ------------------------------------>
