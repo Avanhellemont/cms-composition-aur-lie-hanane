@@ -929,7 +929,7 @@ body {
 
 .footer__content__text {
   font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   outline: 0;
   text-decoration: none;
@@ -938,8 +938,16 @@ body {
   font-weight: 700;
 }
 
+.footer__content__img {
+  padding-left: 20px;
+}
+
 .footer__horaire--horaire {
-  width: 270px;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
 }
 
 .footer__bloc__heure {
@@ -967,8 +975,8 @@ body {
 
 h5 {
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
