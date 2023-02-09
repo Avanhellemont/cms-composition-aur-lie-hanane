@@ -703,10 +703,14 @@ body {
   overflow: hidden;
   z-index: 10;
   display: block;
+  margin-top: 32px;
   /****************************** BLOC Horaire*********************/
 }
 .page__contact .contact {
   /*****************************************BLOC Coordonnes**************************/
+}
+.page__contact .contact .banner__top--top {
+  padding-top: 100px;
 }
 .page__contact .contact .banner__top {
   background: #000;
@@ -822,11 +826,13 @@ body {
   padding-left: 28px;
   background-color: black;
   color: white;
-  margin-right: 60px;
+  margin-right: 57px;
+  width: 606px;
 }
 .page__contact .container__horaire .contact__bloc__heure {
-  background-color: red;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .page__contact .container__horaire .contact__horaire {
   display: flex;
@@ -837,13 +843,28 @@ body {
   text-decoration: none;
   background-color: black;
   color: white;
+  margin-top: 10px;
+}
+.page__contact .container__horaire .contact__icon {
+  margin: 15px 0 0 15px;
+}
+.page__contact .container__horaire .contact__bloc--icon {
+  margin-left: 30px;
 }
 .page__contact .container__horaire h5 {
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.page__contact .container__horaire ul {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  /* letter-spacing: 0.3px; */
   word-spacing: 0.5px;
 }
 
@@ -882,10 +903,7 @@ body {
   position: relative;
   z-index: 10;
   margin-top: -63px;
-}
-.banner__medium .medium__carte--map {
-  border: 17px solid;
-  border: 1px solid;
+  padding-top: 100px;
 }
 
 /********** **********************banner medium */

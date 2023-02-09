@@ -4,6 +4,7 @@
     <?php $contact = get_field('contact');?>
 <div class="contact">    
 <!-------------------------------------- BANNER TOP -->
+<div class="banner__top--top">
 <div class="banner__top">
     <div class="container__banner">
         <div class="content">
@@ -29,14 +30,17 @@
     <div class="contact__bloc__heure">
         <p class="contact__icon">
         <img class="contact__img__time" src="<?php bloginfo('template_url'); ?>/assets/svg/time-clock.svg" alt=""></p>
-            <div class="contact__horaire">
-                <h5>Horaires</h5>
-                    <ul>
-                        <li>lundi > dimanche : (Fermé le mardi)</li>
-                        <li>10h > 18h</li>
-                    </ul>
+            <div class="contact__bloc--icon">
+                <div class="contact__horaire">
+                    <h5>Horaires</h5>
+                        <ul>
+                            <li>lundi > dimanche : (Fermé le mardi)</li>
+                            <li>10h > 18h</li>
+                        </ul>
+                </div>
             </div>
     </div>
+</div>
 </div>
 </div>
 </div>
