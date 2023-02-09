@@ -18,6 +18,7 @@
             /* width: 1588px; */
             display: flex;
             flex-direction: row;
+            margin-top: 100px;
         }
 
         .container__banner{
@@ -95,7 +96,8 @@ top: 0;
 
 .contact__adress {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
 text-decoration: none;
 color:white;
 //  display: flex;
@@ -105,13 +107,15 @@ padding-left: 3%;
 
 .contact__mail {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
 text-decoration: none;
 }
 
 .contact__info {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
 text-decoration: none;
 color:white;
 padding-left: 3%;
@@ -119,9 +123,10 @@ padding-left: 3%;
 
 .contact__tel {
     text-decoration: none;
-
     color:white;
     padding-left: 3%;
+    font-size: 18px;
+    font-weight: 400;
 }
 .contact__tel:hover{
     //background-color: #000;

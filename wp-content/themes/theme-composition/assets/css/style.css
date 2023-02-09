@@ -715,6 +715,7 @@ body {
   /* width: 1588px; */
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
 }
 .page__contact .contact .container__banner {
   max-width: 1493px;
@@ -781,7 +782,8 @@ body {
 }
 .page__contact .contact .contact__adress {
   font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
   color: white;
   flex-direction: row;
@@ -789,12 +791,14 @@ body {
 }
 .page__contact .contact .contact__mail {
   font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
 }
 .page__contact .contact .contact__info {
   font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
   color: white;
   padding-left: 3%;
@@ -803,6 +807,8 @@ body {
   text-decoration: none;
   color: white;
   padding-left: 3%;
+  font-size: 18px;
+  font-weight: 400;
 }
 .page__contact .contact .contact__tel:hover {
   color: white;
