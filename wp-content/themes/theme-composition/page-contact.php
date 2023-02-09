@@ -48,8 +48,8 @@
                 <img class="medium__content__img" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="icon">
         </div>
         <div class="medium__map--container">
-            <a class="medium__map" href="#">carte google map 
-                <img class="medium__map__img" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-googlemap-marker.svg" alt="carte google map">
+            <a class="medium__map" href="#">
+              <!--  <img class="medium__map__img" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-googlemap-marker.svg" alt="carte google map">  -->
                     <div class="medium__carte--map"> <?php echo do_shortcode('[ultimate_maps id="1"]')?></div></a>
 
         
@@ -58,18 +58,53 @@
     </div>
 
 <!------------------------------------ BANNER Bottom -->
-    <div class="banner__bottom">
-        <div class="bottom__content">
-            <div class="banner__bottom--text--container">
-                <div class="titre--question">
+<div class="banner__bottom">
+    <div class="banner__bottom__content">
+        <div class="banner__bottom--text--container">
+            <div class="titre--question">
                     Une question 
                     <br> 
                     Une demande d'offre ?
-                </div> 
-                <div class="sous-titre"> Formulaire de contact</div>
-            </div>
+            </div> 
+            <div class="sous-titre"> Formulaire de contact</div>
         </div>
     </div>
+    <div class="banner__bottom--form">
+        <div class="formulaire--de--contact">
+
+    <!----------     FORMULAIRE DE CONTACT   ------------>
+
+<div class="container__formulaire__contact">
+
+        <form action="/action_page.php">
+            <div class="bloc__form">
+
+            <label for="fname">Nom *</label>
+            <hr class="hr_name">
+            <input class="input_name" type="text" id="fname" name="firstname" placeholder="">
+
+           
+            <label for="emailAddress">votre Email *</label>
+            <input class="input_mail" id="emailAddress" type="email" name="email" placeholder="">
+
+             <label for="sujet"> Tél *</label>
+            <input class="input_tel" type="text" id="sujet" name="sujet" placeholder="">
+
+
+            <label for="subject">Message *</label>
+            <textarea class="input_message" id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+            <input class="input_envoyer" type="submit" value="Envoyer">
+            </div>
+        </form>
+                    <!--   FIN DE FORMULAIRE DE CONTACT-->
+
+</div>
+
+            
+        </div> 
+    </div>
+</div>
 
 </div>    
 </main>
