@@ -710,7 +710,7 @@ body {
   /*****************************************BLOC Coordonnes**************************/
 }
 .page__contact .contact .banner__top--top {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 .page__contact .contact .banner__top {
   background: #000;
@@ -725,7 +725,7 @@ body {
 .page__contact .contact .container__banner {
   max-width: 1493px;
   padding: 0 263px 0 117px;
-  margin: 19px 483px 1px 5px;
+  margin: 150px 483px 1px 5px;
   height: 100%;
 }
 .page__contact .contact .content {
@@ -763,6 +763,7 @@ body {
   flex-direction: row;
   margin-right: 106px;
   margin-left: -321px;
+  margin-top: 160px;
 }
 .page__contact .contact .bloc__coordonnes {
   font-family: "Proxima Nova", sans-serif;
@@ -789,6 +790,7 @@ body {
   font-family: "Proxima Nova", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 2;
   text-decoration: none;
   color: white;
   flex-direction: row;
@@ -823,16 +825,18 @@ body {
   flex-direction: column;
   line-height: 1.9;
   word-spacing: -0.5px;
-  padding-left: 28px;
+  /* padding-left: 28px; */
   background-color: black;
   color: white;
-  margin-right: 57px;
-  width: 606px;
+  /* margin-right: 57px; */
+  width: 614px;
 }
 .page__contact .container__horaire .contact__bloc__heure {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 0 0 0 2;
+  margin-top: -10px;
 }
 .page__contact .container__horaire .contact__horaire {
   display: flex;
@@ -1065,10 +1069,6 @@ body {
   /* redéfinition 400 + 2*20 */
   max-width: 440px;
   margin: 0 auto;
-}
-.container__formulaire__contact h1 {
-  color: #ffc800;
-  width: 100%;
 }
 
 /*************************************************   1   PARTIE**************************************/

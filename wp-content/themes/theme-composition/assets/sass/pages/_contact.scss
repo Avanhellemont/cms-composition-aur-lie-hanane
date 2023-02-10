@@ -11,7 +11,7 @@
 
     .contact{ 
     .banner__top--top{
-        padding-top: 100px;
+       margin-top: 100px;
     }
         .banner__top{
             background: #000;
@@ -27,7 +27,7 @@
         .container__banner{
             max-width: 1493px;
             padding: 0 263px 0 117px;
-            margin: 19px 483px 1px 5px;
+            margin: 150px 483px 1px 5px;
             height: 100%;
     
             
@@ -69,6 +69,8 @@
     flex-direction: row;
     margin-right: 106px;
     margin-left: -321px;
+    margin-top: 160px;
+    //padding-top: 100px;
 
 }
 
@@ -99,13 +101,13 @@ top: 0;
 
 .contact__adress {
 font-family: "Proxima Nova", sans-serif;
-font-size: 18px;
-font-weight: 400;
-text-decoration: none;
-color:white;
-//  display: flex;
-flex-direction: row;
-padding-left: 3%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    padding-left: 3%;
 }
 
 .contact__mail {
@@ -143,18 +145,18 @@ padding-left: 3%;
     flex-direction: column;
     line-height: 1.9;
     word-spacing: -0.5px;
-    padding-left: 28px;
+    /* padding-left: 28px; */
     background-color: black;
     color: white;
-    margin-right: 57px;
-    width: 606px;
+    /* margin-right: 57px; */
+    width: 614px;
 
 .contact__bloc__heure{
-    //background-color: red;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    //margin-left: 5px;
+    padding: 0 0 0 2;
+    margin-top: -10px;
 }
 .contact__horaire{
     display: flex;
@@ -297,6 +299,7 @@ word-spacing: 0.5px;
     min-height: 702px;
     justify-content: flex-end;
     }
+
 .solid{
     border-top: 3px solid #bbb;
 }
@@ -416,10 +419,6 @@ input[type=submit]:hover {
   /* redéfinition 400 + 2*20 */
   max-width: 440px;
   margin:0 auto;
-}
-h1  {
-  color: #ffc800;
-  width: 100%;
 }
 }
 
