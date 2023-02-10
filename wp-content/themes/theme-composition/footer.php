@@ -22,7 +22,8 @@
 
     <div class="footer__horaire">
         <div class="footer__bloc__heure">
-            <p class="footer__icon"><img class="footer__img__time" src="<?php bloginfo('template_url'); ?>/assets/svg/time-clock.svg" alt=""></p>
+            <p class="footer__icon">
+                <img class="footer__img__time" src="<?php bloginfo('template_url'); ?>/assets/svg/time-clock.svg" alt=""></p>
             <div class="footer__horaire">
                 <h5>Horaires</h5>
                     <ul class="footer__horaire--horaire">
@@ -44,19 +45,18 @@
 <!-------------------------------   COORDONNES   ------------------------------------>
 <div class="div2">
     <div class="footer__container__icon__adress"><img class="footer__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
-    <p class="footer__mail">  <img class="footer__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
-    <p class="footer__phone"> <img class="footer__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
+        <p class="footer__mail"> <img class="footer__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
+        <p class="footer__phone"> <img class="footer__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
 </div>
 
 <!-------------------------------   LIENS SOCIAUX   ------------------------------------>
 
 <div class="div3">
     <div class="footer__icons">
-
         <div class="footer__facebook"><a href="#" target="_blank"><img class="footer__img__facebook" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-facebook.svg" alt="logo-facebook"> </a> </div>
         <div class="footer__insta"><a href="#" target="_blank"><img class="footer__img__insta"src="<?php bloginfo('template_url'); ?>/assets/svg/logo-instagram.svg" alt="logo-instagram"> </a> </div>
-
     </div>
+
     <h6>
         <p class="footer__copy__confid">
             <a class= "footer__copy" href="#"> &#169 COMPOSITION 2019 - </a>
@@ -64,11 +64,11 @@
         </p>
     </h6>
         <p class="footer__tva"> TVA : BE0872574089 </p>
-    </div>
+</div>
 </div>
 </div>
 </footer>
     <?php wp_footer() ?> 
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
 </body>
 </html>
