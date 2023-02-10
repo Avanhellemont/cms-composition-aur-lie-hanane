@@ -84,8 +84,8 @@
             <div class="bloc__form">
 
             <label for="fname">Nom *</label>
-            <hr class="hr_name">
-            <input class="input_name" type="text" id="fname" name="firstname" placeholder="">
+           <!-- <hr class="hr_name"> -->
+         <input class="input_name" type="text" id="fname" name="firstname" placeholder="">
 
            
             <label for="emailAddress">votre Email *</label>
@@ -98,7 +98,10 @@
             <label for="subject">Message *</label>
             <textarea class="input_message" id="subject" name="subject" placeholder="" style="height:200px"></textarea>
 
+            <p class="form__requis"> * champs requis</p>
+
             <input class="input_envoyer" type="submit" value="Envoyer">
+                <img class="form__fleche" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt="">
             </div>
         </form>
                     <!--   FIN DE FORMULAIRE DE CONTACT-->
