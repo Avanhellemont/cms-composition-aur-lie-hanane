@@ -876,6 +876,7 @@ body {
   background-color: black;
   display: flex;
   flex-direction: row;
+  height: 285px;
 }
 .banner__medium .medium__itineraire--container {
   width: 42%;
@@ -1420,7 +1421,7 @@ h5 {
 }
 
 .template__banner--image {
-  background-color: yellow;
+  width: 100%;
 }
 
 .medium__content__img {
@@ -1433,7 +1434,6 @@ h5 {
 .template__banner--text {
   width: 371px;
   height: 282px;
-  background-color: rgb(202, 15, 15);
   font-size: x-large;
   font-weight: 700;
 }
