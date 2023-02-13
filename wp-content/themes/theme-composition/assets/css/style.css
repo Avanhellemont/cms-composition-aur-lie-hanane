@@ -1420,6 +1420,11 @@ h5 {
   top: 0;
   left: 0;
 }
+.banner__call--action .template__banner--image .medium__content__img {
+  width: 1700px;
+  height: 500px;
+  position: relative;
+}
 .banner__call--action .template__banner {
   max-width: 1500px;
   padding: 0 70px;
@@ -1431,32 +1436,27 @@ h5 {
   color: #000;
   line-height: 1;
 }
-.banner__call--action .medium__content__img {
-  width: 1700px;
-  height: 500px;
-  position: relative;
-}
-.banner__call--action .template__container--promo {
+.banner__call--action .template__banner .template__container--promo {
   height: 100%;
   width: 100%;
   position: relative;
   margin-left: -160px;
 }
-.banner__call--action .template__container--promo .template__banner--text {
+.banner__call--action .template__banner .template__container--promo .template__banner--text {
   display: inline-block;
   background: #fff;
   margin: 135px;
   padding: 60px 15% 60px 5%;
   text-align: left;
 }
-.banner__call--action .template__content {
+.banner__call--action .template__banner .template__container--promo .template__banner--text .template__content {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 40px;
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
 }
-.banner__call--action .template__fleche {
+.banner__call--action .template__banner .template__container--promo .template__banner--text .template__fleche {
   font-size: 18px;
   font-weight: 700;
   padding: 15px;
