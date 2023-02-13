@@ -1051,14 +1051,14 @@ body {
   overflow: hidden;
   position: relative;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 28px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 .container__formulaire__contact input[type=submit]:hover {
   background-color: white;
-  box-shadow: 1px 2px 3px lightblue;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.19) !important;
 }
 .container__formulaire__contact .container__formualire__contact {
   /* Ajouter box-sizing */

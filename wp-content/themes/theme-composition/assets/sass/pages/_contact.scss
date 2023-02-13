@@ -351,13 +351,11 @@ word-spacing: 0.5px;
         border-radius: 50%;
         font-size: 16px;
         font-weight: 700;
-        //box-shadow: 10px 10px 5px lightblue;
-        //text-shadow: 2px 2px 4px #000000;
+        
 
     &:hover{
-    //background-color: #000;
     color:rgb(12, 11, 11);
-    //text-shadow: 2px 2px 4px #000000;
+    
 
 }  
 .form__fleche{
@@ -396,7 +394,7 @@ input[type=submit] {
     overflow: hidden;
     position: relative;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 28px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -406,7 +404,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: white;
-    box-shadow: 1px 2px 3px lightblue;
+    //box-shadow: 2px 2px 2px 3px lightblue;
+    box-shadow: 2px 2px 4px 1px rgb(0 0 0 / 19%) !important;
 }
 
 .container__formualire__contact {
