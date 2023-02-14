@@ -6,7 +6,6 @@
 
 <div class="footer__top__content">
     <!------------------------------- photo and text  + liens  ----------------------------------->
-
     <div class="footer__content">
         <div class="footer__img__bloc">
             <img class="footer__img__content" src="<?php bloginfo('template_url'); ?>/assets/images/1500x1250_02.jpg" alt="image">
@@ -43,14 +42,13 @@
         <a class="google__map" href="#">Google map <img class="footer__fleche" src="<?php bloginfo('template_url'); ?>/assets/svg/Group 1300.svg" alt=""></a>
     </div>
 <!-------------------------------   COORDONNES   ------------------------------------>
-<div class="div2">
-    <div class="footer__container__icon__adress"><img class="footer__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
-        <p class="footer__mail"> <img class="footer__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
-        <p class="footer__phone"> <img class="footer__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
-</div>
+    <div class="div2">
+        <div class="footer__container__icon__adress"><img class="footer__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="footer__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
+            <p class="footer__mail"> <img class="footer__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="footer__info" href="#">info@meubles-composition.be</a></p>
+            <p class="footer__phone"> <img class="footer__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="footer__tel" href="">+32 (0)85 21 52 38</a> </p>
+    </div>
 
 <!-------------------------------   LIENS SOCIAUX   ------------------------------------>
-
 <div class="div3">
     <div class="footer__icons">
         <div class="footer__facebook"><a href="#" target="_blank"><img class="footer__img__facebook" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-facebook.svg" alt="logo-facebook"> </a> </div>
