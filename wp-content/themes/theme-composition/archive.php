@@ -22,14 +22,13 @@
                 <li class="inside">
                     <a href="">
                         <div class="image__container">
-                            <div class="image"></div>
+                            <div class="image">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/1350x750_03.jpg" alt="">>
+                            </div>
                         </div>
                         <div class="text__container"></div>
                     </a> 
                 </li>
-
-
-
 
                 <li></li>
                 <li></li>
@@ -39,7 +38,6 @@
             </ul>
         </div>
     </div>
-
 </div>
 
 
