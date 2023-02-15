@@ -30,7 +30,7 @@
                     </a> 
                 </li>
 
-                <li></li>
+                <li>coucou</li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -39,7 +39,5 @@
         </div>
     </div>
 </div>
-
-
 </main>
 <?php get_footer();?>
