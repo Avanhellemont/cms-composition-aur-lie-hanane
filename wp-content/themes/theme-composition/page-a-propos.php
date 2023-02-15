@@ -47,6 +47,8 @@ if( $lastpart['lastpart_image'] && $lastpart['lastpart_titre'] && $lastpart['las
     </div>
 </section>
     <?php endif; ?>
+    <?php get_template_part("/template-parts/callback") ?>
+
 </main>
 <?php get_footer() ?>
 

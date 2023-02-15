@@ -67,6 +67,7 @@ if( $tissus['tissus_image'] && $tissus['tissus_titre'] && $tissus['tissus_sousti
     </div>
     </section>
     <?php endif; ?>
+<?php get_template_part("/template-parts/callback") ?>
 
 </main>
 <?php get_footer() ?>
