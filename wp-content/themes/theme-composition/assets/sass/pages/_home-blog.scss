@@ -1,40 +1,102 @@
-.page__archive{
-    width: 1500px;
-    height: 300px;
-    //background: white;
-    font-family: "proxima-nova", sans-serif;
-    color: #000;
-    background-color: red;
+.page__archive {
+//width: 1500px;
+//height: 300px;
+background: white;
+font-family: "proxima-nova", sans-serif;
+//color: #000;
+//background-color: red;
 
-    .banner__top{
+.banner__top {
     background: #000;
     padding-top: 165px;
-    background: #fff;
+    //background: #fff;
     transition: height 1s;
     height: 636px;
+}
 
-    .banner-content {
-    background-color: darkblue;
+    .banner__content {
+    background-color: black;
     max-width: 1500px;
     padding: 0 70px;
     margin: 0 auto;
     height: 100%;
     transition: max-width 1s;
     position: relative;
+    }
+    .titre__container{
+        position: relative;
+        color: white;
+        //background-color: lightsalmon;
+
+        .trait{
+            height: 1px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            right: calc(100% + 32px);
+            top: 23px;
+        }
+        .titre{
+            font-family: "proxima-nova", sans-serif;
+            font-size: 40px;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 180px;
+            animation: fade 1s;
+        }
+
+
+    }
+}
 
     .content {
-    background-color: darkgreen;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    display: inline-block;
-}
-}
-}
-}
+        //background-color: darkgreen;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        line-height: 1;
+    }
+        .ul{
+        background-color: deeppink;
+        padding-top: 0px;
+        min-height: 250px;
+        box-sizing: border-box;
+        list-style-type: none;
+        }
+        .inside{
+            background-color: gold;
+            height: 700px;
+            width: 49.2%;
+            float: left;
+            margin-bottom: 20px;
+            background: #fff;
+            position: relative;
+        }
+        
+    
+    
 
-.banner.list {
-    background-color: aqua;
-    margin-top: -240px;
-}
 
+.banner__list {
+background-color: aqua;
+margin-top: -240px;
+
+.ul{
+            background-color: deeppink;
+        padding-top: 0px;
+        min-height: 250px;
+        box-sizing: border-box;
+        list-style-type: none;
+        }
+        .inside{
+            background-color: gold;
+            height: 700px;
+            width: 49.2%;
+            float: left;
+            margin-bottom: 20px;
+            background: #fff;
+            position: relative;
+        }
+
+}
