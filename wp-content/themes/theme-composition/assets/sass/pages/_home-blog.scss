@@ -58,11 +58,8 @@ font-family: "proxima-nova", sans-serif;
         line-height: 1;
     }
         .ul{
-        background-color: deeppink;
         padding-top: 0px;
-        min-height: 250px;
-        box-sizing: border-box;
-        list-style-type: none;
+    min-height: 250px;
         }
         .inside{
             background-color: gold;
@@ -79,15 +76,17 @@ font-family: "proxima-nova", sans-serif;
 
 
 .banner__list {
-background-color: aqua;
-margin-top: -240px;
+//background-color: aqua;
+margin-top: -250px;
 
 .ul{
-            background-color: deeppink;
-        padding-top: 0px;
-        min-height: 250px;
-        box-sizing: border-box;
-        list-style-type: none;
+    //background-color: deeppink;
+        //padding-top: 0px;
+        //min-height: 250px;
+        //box-sizing: border-box;
+        //list-style-type: none;
+    padding-top: 0px;
+    min-height: 250px;
         }
         .inside{
             background-color: gold;
@@ -98,5 +97,34 @@ margin-top: -240px;
             background: #fff;
             position: relative;
         }
+    .image__container{
+        background-color: brown;
+    width: 100%;
+    height: 501px;
+    background: #56565a;
+    filter: brightness(95%);
+    transition: filter 0.5s;
+    }
+.text__container{
+    
+    width: 100%;
+    background: #fff;
+    padding: 30px 0px;
 
+    .titre-post{
+        font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+
+    .date{
+        
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    }
 }
+    }
+}
+
