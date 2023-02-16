@@ -8,7 +8,7 @@
             <div class="content">
                 <div class="titre__container"></div>
                 <div class="trait"> - </div>
-                <h1 class="titre">Architecte d’intérieur en action</h1>
+            <!--    <h1 class="titre">Architecte d’intérieur en action</h1>   -->
             </div>
         </div>
     </div>
