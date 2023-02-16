@@ -17,15 +17,11 @@
     <!----------------------------------------Bloc coordonnes-------->
     <div class="bloc__coordonnes--coordonnes">
         <div class="bloc__coordonnes">
-            
             <div class="contact__container__icon__adress"><img class="contact__img__adress" src="<?php bloginfo('template_url'); ?>/assets/svg/marker-road.svg" alt=""><p class="contact__adress">Route de Hamoir, 87 – 4500 Huy </p></div> 
-            <p class="contact__mail">  <img class="contact__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="contact__info" href="#">info@meubles-composition.be</a></p>
-            <p class="contact__phone"> <img class="contact__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="contact__tel" href="">+32 (0)85 21 52 38</a> </p>
-
-        </div>
+                <p class="contact__mail">  <img class="contact__img__mail" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-arrobas.svg" alt=""><a class="contact__info" href="#">info@meubles-composition.be</a></p>
+                <p class="contact__phone"> <img class="contact__img__phone" src="<?php bloginfo('template_url'); ?>/assets/svg/phone-2.svg" alt=""><a class="contact__tel" href="">+32 (0)85 21 52 38</a> </p>
+            </div>
     <!--------------------------------------Bloc horaire-------->
-
-
     <div class="container__horaire">
         <div class="contact__bloc__heure">
             <p class="contact__icon">
@@ -53,10 +49,8 @@
         </div>
         <div class="medium__map--container">
             <a class="medium__map" href="#">
-              <!--  <img class="medium__map__img" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-googlemap-marker.svg" alt="carte google map">  -->
-                    <div class="medium__carte--map"> <?php echo do_shortcode('[ultimate_maps id="1"]')?></div></a>
-
-        
+            <!--  <img class="medium__map__img" src="<?php bloginfo('template_url'); ?>/assets/svg/icon-googlemap-marker.svg" alt="carte google map">  -->
+            <div class="medium__carte--map"> <?php echo do_shortcode('[ultimate_maps id="1"]')?></div></a>
         </div>
 
     </div>
@@ -74,16 +68,15 @@
         </div>
     </div>
 <div class="banner__bottom--form">
-        <div class="formulaire--de--contact">
+        
+    <div class="formulaire--de--contact">
 
         <!----------     FORMULAIRE DE CONTACT   ------------>
-
 <div class="container__formulaire__contact">
     <form action="/action_page.php">
         <div class="bloc__form">
             <label for="fname">Nom *</label>
             <input class="input_name" type="text" id="fname" name="firstname" placeholder="">
-
 
             <label for="emailAddress">votre Email *</label>
             <input class="input_mail" id="emailAddress" type="email" name="email" placeholder="">
