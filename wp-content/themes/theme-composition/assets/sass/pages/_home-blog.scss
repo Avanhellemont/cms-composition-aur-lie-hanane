@@ -14,6 +14,9 @@ font-family: "proxima-nova", sans-serif;
     height: 636px;
 }
 
+.banner__list{
+    margin-top: -240px;
+}
     .banner__content {
     background-color: black;
     max-width: 1500px;
@@ -92,7 +95,7 @@ margin-top: -250px;
             background-color: gold;
             height: 700px;
             width: 49.2%;
-            float: left;
+            //float: left;
             margin-bottom: 20px;
             background: #fff;
             position: relative;
@@ -105,6 +108,16 @@ margin-top: -250px;
     filter: brightness(95%);
     transition: filter 0.5s;
     }
+
+    .image{
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
 .text__container{
     
     width: 100%;
@@ -116,7 +129,7 @@ margin-top: -250px;
     font-weight: 700;
     color: #000;
     margin-bottom: 30px;
-
+    }
     .date{
         
     font-weight: 500;
@@ -126,5 +139,5 @@ margin-top: -250px;
     }
 }
     }
-}
+
 

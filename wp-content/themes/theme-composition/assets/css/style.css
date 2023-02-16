@@ -1476,6 +1476,9 @@ h5 {
   transition: height 1s;
   height: 636px;
 }
+.page__archive .banner__list {
+  margin-top: -240px;
+}
 .page__archive .banner__content {
   background-color: black;
   max-width: 1500px;
@@ -1540,7 +1543,6 @@ h5 {
   background-color: gold;
   height: 700px;
   width: 49.2%;
-  float: left;
   margin-bottom: 20px;
   background: #fff;
   position: relative;
@@ -1553,6 +1555,15 @@ h5 {
   filter: brightness(95%);
   transition: filter 0.5s;
 }
+.banner__list .image {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .banner__list .text__container {
   width: 100%;
   background: #fff;
@@ -1564,7 +1575,7 @@ h5 {
   color: #000;
   margin-bottom: 30px;
 }
-.banner__list .text__container .titre-post .date {
+.banner__list .text__container .date {
   font-weight: 500;
   color: #000;
   letter-spacing: 1.5px;

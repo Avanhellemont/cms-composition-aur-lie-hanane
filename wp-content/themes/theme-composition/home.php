@@ -34,7 +34,19 @@
                     </a> 
                 </li>
 
-                <li>coucou</li>
+                <li class="inside">
+                    <a href="">
+                        <div class="image__container">
+                            <div class="image">
+                           <!--      <img src="<?php bloginfo('template_url'); ?>/assets/images/1350x750_03.jpg" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="text__container">
+                            <h3 class="titre-post"> Fermob : BEPOP</h3>
+                            <p class="date">16.02.2023</p>
+                        </div>
+                    </a> 
+                </li>
                 <li></li>
                 <li></li>
                 <li></li>
