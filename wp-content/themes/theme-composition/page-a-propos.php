@@ -47,6 +47,11 @@ if( $lastpart['lastpart_image'] && $lastpart['lastpart_titre'] && $lastpart['las
     </div>
 </section>
     <?php endif; ?>
+<<<<<<< HEAD
+=======
+    <?php get_template_part("/template-parts/callback") ?>
+
+>>>>>>> hanane
 </main>
 <?php get_footer() ?>
 

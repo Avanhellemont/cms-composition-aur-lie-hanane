@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@charset "UTF-8";
+>>>>>>> hanane
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +33,7 @@ header {
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
+<<<<<<< HEAD
   font-weight: 700;
   justify-content: space-around;
 =======
@@ -39,10 +44,15 @@ header .content {
   font-weight: 700;
   justify-content: space-between;
 >>>>>>> ce3432ab97c33ef910ee5e64cac66bbdac0d3943
+=======
+  font-weight: 700;
+  justify-content: space-around;
+>>>>>>> hanane
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: fixed;
   z-index: 1000;
   width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 header .header__nav {
@@ -118,6 +128,614 @@ header .header__button {
   display: flex;
   align-items: center;
   background: rgb(255, 255, 255);
+=======
+}
+header .header__nav {
+  display: flex;
+}
+header .header__nav .menu-menu-container {
+  display: flex;
+}
+header .header__nav .menu-menu-container .menu {
+  display: flex;
+}
+header .header__nav .menu-menu-container .menu .header__li--hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+header .header__nav .menu-menu-container .menu .header__li--icon {
+  background-image: url(/wp-content/themes/theme-composition/assets/svg/home-minimal.svg); /* URL du drapeau FR */
+  background-repeat: no-repeat;
+  width: 13px;
+}
+header .header__nav .menu-menu-container .menu .menu-item a {
+  font-family: "Proxima Nova", sans-serif;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+header .header__nav .menu-menu-container .menu .menu-item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+header .header__nav .menu-menu-container .menu .menu-item a:active {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+header .header__button {
+  display: flex;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-family: "Proxima Nova", sans-serif;
+  padding-left: 20px;
+  font-weight: 700;
+  border: 1px solid rgb(0, 0, 0);
+}
+header .header__button .button__icon {
+  padding: 20px;
+}
+header .header__button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0px;
+}
+header .header__button:hover .button__icon {
+  fill: #fff !important;
+}
+header .header__button:hover .button__icon .svg__bullet-list {
+  fill: #fff !important;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  src: url("/wp-content/themes/theme-composition/assets/font/proxima-nova/ProximaNova-Bold.otf") format("opentype");
+}
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.diaporama {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+.diaporama h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 550px;
+  padding-left: 75px;
+}
+.diaporama .diaporama__image {
+  width: 70%;
+  margin-left: 75px;
+  position: absolute;
+  top: 440px;
+}
+
+.etude {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 75px;
+}
+.etude .etude__content--left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 95px;
+}
+.etude .etude__content--left .etude__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  width: 250px;
+}
+.etude .etude__content--left .etude__sous-titre {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.etude .etude__content--left .etude__text--firstpart, .etude .etude__content--left .etude__text--secondpart {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  margin-bottom: 50px;
+  width: 375px;
+}
+.etude .etude__content--right {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 175px 10px 150px 250px;
+  width: 120%;
+  height: 100%;
+}
+.etude .etude__content--right .etude__span {
+  font-weight: 500;
+  margin-bottom: 35px;
+  letter-spacing: 1.2px;
+  margin-left: -130px;
+}
+.etude .etude__content--right ul {
+  margin-top: 35px;
+  line-height: 2.5;
+  margin-left: -120px;
+}
+.etude .etude__content--right ul li {
+  list-style-type: disc;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  letter-spacing: 1.2px;
+  padding: 0 0 0 60px;
+}
+
+.stephan {
+  display: flex;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  margin-bottom: 120px;
+}
+.stephan .stephan__image {
+  width: 42.3%;
+  height: 70%;
+}
+.stephan .stephan__content--right {
+  display: flex;
+  padding: 120px 120px 10px 120px;
+  flex-direction: column;
+}
+.stephan .stephan__content--right .stephan__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.stephan .stephan__content--right .stephan__sous-titre {
+  margin-bottom: 55px;
+}
+.stephan .stephan__content--right .stephan__texte {
+  line-height: 2;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.tissus-artisanat {
+  padding-bottom: 200px;
+  padding-left: 150px;
+}
+.tissus-artisanat .tissus__image {
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+.tissus-artisanat .tissus__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  margin-left: 125px;
+}
+.tissus-artisanat .tissus__sous-titre {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-left: 130px;
+}
+.tissus-artisanat .tissus__content {
+  display: flex;
+  justify-content: flex-end;
+}
+.tissus-artisanat .tissus__content .tissus__content--left {
+  width: 355px;
+  margin-right: 22px;
+}
+.tissus-artisanat .tissus__content .tissus__content--left .tissus__texte, .tissus-artisanat .tissus__content .tissus__content--left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: black;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+  width: 355px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right {
+  margin-right: 250px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: black;
+  letter-spacing: 1.2px;
+  width: 355px;
+  padding-top: 30px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right ul {
+  margin-left: 15px;
+}
+.tissus-artisanat .tissus__content .tissus__column--right ul li {
+  list-style-type: circle;
+}
+
+.firstpart {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+.firstpart h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 550px;
+  padding-left: 75px;
+}
+.firstpart .firstpart__image {
+  width: 70%;
+  margin-left: 75px;
+  position: absolute;
+  top: 440px;
+}
+
+.secondpart {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 75px;
+}
+.secondpart .secondpart__content--left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 95px;
+}
+.secondpart .secondpart__content--left .secondpart__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  width: 250px;
+}
+.secondpart .secondpart__content--left .secondpart__sous-titre {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.secondpart .secondpart__content--left .secondpart__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  width: 375px;
+}
+.secondpart .secondpart__content--right {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 175px 10px 150px 250px;
+  width: 120%;
+  height: 100%;
+}
+.secondpart .secondpart__content--right .secondpart__span {
+  font-weight: 500;
+  margin-bottom: 35px;
+  letter-spacing: 1.2px;
+  margin-left: -130px;
+}
+.secondpart .secondpart__content--right ul {
+  margin-top: 35px;
+  line-height: 2.5;
+  margin-left: -120px;
+}
+.secondpart .secondpart__content--right ul li {
+  list-style-type: disc;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  letter-spacing: 1.2px;
+  padding: 0 0 0 60px;
+}
+
+.lastpart {
+  display: flex;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  margin-bottom: 120px;
+}
+.lastpart .lastpart__image {
+  width: 46.8%;
+  height: 70%;
+}
+.lastpart .lastpart__content--right {
+  display: flex;
+  padding: 120px 120px 10px 120px;
+  flex-direction: column;
+}
+.lastpart .lastpart__content--right .lastpart__titre {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.lastpart .lastpart__content--right .lastpart__sous-titre {
+  margin-bottom: 55px;
+}
+.lastpart .lastpart__content--right .lastpart__texte {
+  line-height: 2;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.page__contact {
+  font-family: "proxima-nova", sans-serif;
+  color: #000;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  display: block;
+  margin-top: 32px;
+  /****************************** BLOC Horaire*********************/
+}
+.page__contact .contact {
+  /*****************************************BLOC Coordonnes**************************/
+}
+.page__contact .contact .banner__top--top {
+  margin-top: 100px;
+}
+.page__contact .contact .banner__top {
+  background: #000;
+  transition: height 1s;
+  /* margin-left: -146px; */
+  height: 435px;
+  /* width: 1588px; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.page__contact .contact .container__banner {
+  max-width: 1493px;
+  padding: 0 263px 0 117px;
+  margin: 150px 483px 1px 5px;
+  height: 100%;
+}
+.page__contact .contact .content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.page__contact .contact .titre__container {
+  position: relative;
+  width: 42%;
+  float: left;
+}
+.page__contact .contact .trait {
+  height: 1px;
+  width: 90px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: calc(100% + 32px);
+  top: 23px;
+  animation: scale 0.8s;
+}
+.page__contact .contact .titre {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  animation: fade 1s;
+  line-height: 1.1;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.page__contact .contact .bloc__coordonnes--coordonnes {
+  display: flex;
+  flex-direction: row;
+  margin-right: 106px;
+  margin-left: -321px;
+  margin-top: 160px;
+}
+.page__contact .contact .bloc__coordonnes {
+  font-family: "Proxima Nova", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+  width: 100%;
+  height: 120px;
+}
+.page__contact .contact .contact__container__icon__adress {
+  display: flex;
+  flex-direction: row;
+}
+.page__contact .contact .contact_img_adress {
+  width: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.page__contact .contact .contact__adress {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  text-decoration: none;
+  color: white;
+  flex-direction: row;
+  padding-left: 3%;
+}
+.page__contact .contact .contact__mail {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.page__contact .contact .contact__info {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+}
+.page__contact .contact .contact__tel {
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+  font-size: 18px;
+  font-weight: 400;
+}
+.page__contact .contact .contact__tel:hover {
+  color: white;
+}
+.page__contact .container__horaire {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.9;
+  word-spacing: -0.5px;
+  /* padding-left: 28px; */
+  background-color: black;
+  color: white;
+  /* margin-right: 57px; */
+  width: 614px;
+}
+.page__contact .container__horaire .contact__bloc__heure {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 2;
+  margin-top: -10px;
+}
+.page__contact .container__horaire .contact__horaire {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  word-spacing: 0.5px;
+  cursor: default;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+.page__contact .container__horaire .contact__icon {
+  margin: 15px 0 0 15px;
+}
+.page__contact .container__horaire .contact__bloc--icon {
+  margin-left: 30px;
+}
+.page__contact .container__horaire h5 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.page__contact .container__horaire ul {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  /* letter-spacing: 0.3px; */
+  word-spacing: 0.5px;
+}
+
+.banner__medium {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 285px;
+}
+.banner__medium .medium__itineraire--container {
+  width: 42%;
+  padding-top: 203px 0;
+  padding: 198px 0 0 134px;
+}
+.banner__medium .medium__content__text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.banner__medium .medium__content__img {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 0;
+}
+.banner__medium .medium__map--container {
+  width: 58%;
+  height: 350px;
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-top: -63px;
+  padding-top: 100px;
+}
+
+/********** **********************banner medium */
+.banner-bottom {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+  background-color: red;
+}
+
+/********** ********************** Banner Bottom */
+.banner__bottom {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+  font-family: "proxima-nova", sans-serif;
+  color: #000;
+  line-height: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 154px 0 80px;
+}
+
+.banner__bottom__content {
+  padding-top: 63px;
+  font-family: "proxima-nova", sans-serif;
+>>>>>>> hanane
   color: black;
   font-family: "Proxima Nova", sans-serif;
   padding-left: 20px;
@@ -162,6 +780,7 @@ header .header__button:hover .button__icon .svg__bullet-list {
   fill: #fff !important;
 }
 
+<<<<<<< HEAD
 =======
 header .content .header__button:hover .button__icon {
   fill: #fff !important;
@@ -360,12 +979,264 @@ body {
   background-color: rgb(0, 0, 0);
   padding: 70px;
 <<<<<<< HEAD
+=======
+.banner__bottom--text--container {
+  width: 490px;
+}
+
+.titre--question {
+  font-size: 40px;
+  font-weight: 700;
+  width: 490px;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.sous-titre {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.banner__bottom--form {
+  display: flex;
+  width: 100%;
+  min-height: 702px;
+  justify-content: flex-end;
+}
+
+.solid {
+  border-top: 3px solid #bbb;
+}
+
+.formulaire--de--contact {
+  width: 100%;
+  max-width: 900px;
+  min-height: 280px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  clear: both;
+}
+
+/******************  FORMULAIRE DE CONTACT  *************/
+.container__formulaire__contact .bloc__form {
+  width: 100%;
+  padding: -11px;
+  box-sizing: border-box;
+  margin-top: 41px;
+  margin-bottom: 21px;
+  resize: vertical;
+}
+.container__formulaire__contact .input_name {
+  background-color: #f2f2f2;
+}
+.container__formulaire__contact .input_tel {
+  background-color: #f2f2f2;
+}
+.container__formulaire__contact .input_mail {
+  background-color: #f2f2f2;
+}
+.container__formulaire__contact .input_message {
+  background-color: #f2f2f2;
+}
+.container__formulaire__contact .form__requis {
+  font-size: 15px;
+  color: #423e3e;
+  padding-left: 777px;
+  font-style: italic;
+}
+.container__formulaire__contact .input_envoyer {
+  background-color: #000;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+}
+.container__formulaire__contact .input_envoyer:hover {
+  color: rgb(12, 11, 11);
+}
+.container__formulaire__contact .input_envoyer .form__fleche {
+  margin-left: 20px;
+  transition: transform 0.3s;
+  transform: translate3d(-3px, 0, 0);
+}
+.container__formulaire__contact input[type=text], .container__formulaire__contact textarea, .container__formulaire__contact input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+.container__formulaire__contact label {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+.container__formulaire__contact input[type=submit] {
+  width: 242px;
+  height: 77px;
+  line-height: 45px;
+  background: #000;
+  text-align: left;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container__formulaire__contact input[type=submit]:hover {
+  background-color: white;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.19) !important;
+}
+.container__formulaire__contact .container__formualire__contact {
+  /* Ajouter box-sizing */
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  /* redéfinition 400 + 2*20 */
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.banniere__img {
+  display: flex;
+  margin-bottom: 200px;
+}
+.banniere__img .banniere__img--g {
+  width: 53%;
+  position: relative;
+}
+.banniere__img .banniere__img--d {
+  width: 53%;
+}
+
+.banniere__bloc--g {
+  background-color: white;
+  padding: 70px;
+  width: 400px;
+  height: 20px;
+  z-index: 1;
+  left: 50px;
+  top: 485px;
+  box-shadow: 0px 2px 10px 3px rgba(136, 136, 136, 0.1);
+  position: absolute;
+}
+.banniere__bloc--g:hover {
+  transform: scaleY(1.5);
+  transition: 600ms ease-in-out;
+  cursor: pointer;
+}
+.banniere__bloc--g:hover .banniere__titre--g {
+  display: none;
+  transition: none;
+  transform: none;
+  transition: opacity 0, 6s;
+  opacity: 0;
+}
+.banniere__bloc--g:hover .content__box--g {
+  display: block;
+  transform: scaleY(0.75);
+}
+.banniere__bloc--g:hover .content__box--g .banniere__titre-g--hover {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 10px;
+  transform: translateY(-100px);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.banniere__bloc--g:hover .content__box--g .banniere__texte-g--hover {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  transform: translateY(-100px);
+  padding-bottom: 0;
+  margin-top: 0;
+}
+.banniere__bloc--g:hover .content__box--g .banniere__link-g--hover {
+  position: fixed;
+  top: 60px;
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.banniere__bloc--g:hover .content__box--g .banniere__link-g--hover img {
+  padding-left: 20px;
+}
+.banniere__bloc--g .banniere__titre--g {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  opacity: 1;
+}
+.banniere__bloc--g .content__box--g {
+  display: none;
+}
+
+.banniere__btn {
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: relative;
+  top: -225px;
+  left: 565px;
+  z-index: 10;
+}
+.banniere__btn .button__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banniere__btn--d {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: relative;
+  top: -271px;
+  left: 1205px;
+  z-index: 10;
+}
+.banniere__btn--d .button__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banniere__bloc--d {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 70px;
+>>>>>>> hanane
   width: 350px;
   height: 20px;
   position: absolute;
   z-index: 1;
   right: 50px;
   top: 485px;
+<<<<<<< HEAD
 =======
   width: 520px;
   height: 25px;
@@ -374,6 +1245,8 @@ body {
   right: 50px;
   top: 455px;
 >>>>>>> ce3432ab97c33ef910ee5e64cac66bbdac0d3943
+=======
+>>>>>>> hanane
   box-shadow: 0px 2px 10px 3px;
   transition: 0, 6s ease-in-out;
 }
@@ -382,9 +1255,12 @@ body {
   transition: 600ms ease-in-out;
   cursor: pointer;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   height: 180px;
 >>>>>>> ce3432ab97c33ef910ee5e64cac66bbdac0d3943
+=======
+>>>>>>> hanane
 }
 .banniere__bloc--d:hover .banniere__titre--d {
   display: none;
@@ -422,10 +1298,13 @@ body {
   text-decoration: underline;
   font-weight: 700;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   font-size: 18px;
   margin-bottom: 40px;
 >>>>>>> ce3432ab97c33ef910ee5e64cac66bbdac0d3943
+=======
+>>>>>>> hanane
 }
 .banniere__bloc--d:hover .content__box--d .banniere__link-d--hover img {
   padding-left: 20px;
@@ -554,6 +1433,7 @@ body {
 }
 .tissus .tissus__content--right .tissus__link img {
   padding-left: 20px;
+<<<<<<< HEAD
 }
 
 .diaporama {
@@ -1025,6 +1905,8 @@ body {
   height: 100%;
   transition: max-width 1s;
   position: relative;
+=======
+>>>>>>> hanane
 }
 
 /*************************************************   1   PARTIE**************************************/
@@ -1069,7 +1951,7 @@ body {
 
 .footer__content__text {
   font-family: "Proxima Nova", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   outline: 0;
   text-decoration: none;
@@ -1078,8 +1960,21 @@ body {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .footer__horaire--horaire {
   width: 270px;
+=======
+.footer__content__img {
+  padding-left: 20px;
+}
+
+.footer__horaire--horaire {
+  width: 300px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+>>>>>>> hanane
 }
 
 .footer__bloc__heure {
@@ -1107,8 +2002,8 @@ body {
 
 h5 {
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
@@ -1356,4 +2251,180 @@ h5 {
   transition: color 0.6s;
 }
 
+<<<<<<< HEAD
+=======
+.banner__call--action {
+  height: 525px;
+  position: relative;
+}
+.banner__call--action .template__banner--image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner__call--action .template__banner--image .medium__content__img {
+  width: 1700px;
+  height: 500px;
+  position: relative;
+}
+.banner__call--action .template__banner {
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+  font-family: "proxima-nova", sans-serif;
+  color: #000;
+  line-height: 1;
+}
+.banner__call--action .template__banner .template__container--promo {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-left: -160px;
+}
+.banner__call--action .template__banner .template__container--promo .template__banner--text {
+  display: inline-block;
+  background: #fff;
+  margin: 135px;
+  padding: 60px 15% 60px 5%;
+  text-align: left;
+}
+.banner__call--action .template__banner .template__container--promo .template__banner--text .template__content {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.banner__call--action .template__banner .template__container--promo .template__banner--text .template__fleche {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px;
+  padding-left: 0;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+}
+
+.page__archive {
+  background: white;
+  font-family: "proxima-nova", sans-serif;
+}
+.page__archive .banner__top {
+  background: #000;
+  padding-top: 165px;
+  transition: height 1s;
+  height: 636px;
+}
+.page__archive .banner__list {
+  margin-top: -240px;
+}
+.page__archive .banner__content {
+  background-color: black;
+  max-width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+  transition: max-width 1s;
+  position: relative;
+}
+.page__archive .titre__container {
+  position: relative;
+  color: white;
+}
+.page__archive .titre__container .trait {
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: calc(100% + 32px);
+  top: 23px;
+}
+.page__archive .titre__container .titre {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 180px;
+  animation: fade 1s;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+.ul {
+  padding-top: 0px;
+  min-height: 250px;
+}
+
+.inside {
+  background-color: gold;
+  height: 700px;
+  width: 49.2%;
+  float: left;
+  margin-bottom: 20px;
+  background: #fff;
+  position: relative;
+}
+
+.banner__list {
+  margin-top: -250px;
+}
+.banner__list .ul {
+  padding-top: 0px;
+  min-height: 250px;
+}
+.banner__list .inside {
+  background-color: gold;
+  height: 700px;
+  width: 49.2%;
+  margin-bottom: 20px;
+  background: #fff;
+  position: relative;
+}
+.banner__list .image__container {
+  background-color: brown;
+  width: 100%;
+  height: 501px;
+  background: #56565a;
+  filter: brightness(95%);
+  transition: filter 0.5s;
+}
+.banner__list .image {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner__list .text__container {
+  width: 100%;
+  background: #fff;
+  padding: 30px 0px;
+}
+.banner__list .text__container .titre-post {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+}
+.banner__list .text__container .date {
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 1.5px;
+  display: inline-block;
+}
+
+>>>>>>> hanane
 /*# sourceMappingURL=style.css.map */

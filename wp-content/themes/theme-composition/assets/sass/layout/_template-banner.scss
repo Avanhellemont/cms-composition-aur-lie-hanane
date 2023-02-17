@@ -1,0 +1,67 @@
+.banner__call--action{
+    height: 525px;
+    position: relative;
+
+    //<!--    Banniere photo  -->
+.template__banner--image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+        .medium__content__img{
+        width:1700px;
+        height: 500px;
+        position: relative;
+    
+        }
+}
+
+ //   <!--    Bloc promo   -->   
+.template__banner{   
+    max-width: 1500px;
+    padding: 0 70px;
+    margin: 0 auto;
+    height: 100%;
+    transition: max-width 1s;
+    position: relative;
+    font-family: "proxima-nova", sans-serif;
+    color: #000;
+    line-height: 1;
+
+        .template__container--promo{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            margin-left: -160px;
+
+                .template__banner--text{
+                    display: inline-block;
+                    background: #fff;
+                    margin: 135px;
+                    padding: 60px 15% 60px 5%;
+                    text-align: left;
+                
+                
+                    .template__content{
+                    font-size: 40px;
+                    font-weight: 700;
+                    margin-bottom: 40px;
+                    //font-weight: 400;
+                    letter-spacing: 0.3px;
+                    word-spacing: 0.5px;
+                }
+                    .template__fleche{
+                    font-size: 18px;
+                    font-weight: 700;
+                    padding: 15px;
+                    padding-left: 0;
+                    display: inline-block;
+                    position: relative;
+                    user-select: none;
+                }
+            }
+        }
+    }
+}

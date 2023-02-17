@@ -1,0 +1,143 @@
+.page__archive {
+//width: 1500px;
+//height: 300px;
+background: white;
+font-family: "proxima-nova", sans-serif;
+//color: #000;
+//background-color: red;
+
+.banner__top {
+    background: #000;
+    padding-top: 165px;
+    //background: #fff;
+    transition: height 1s;
+    height: 636px;
+}
+
+.banner__list{
+    margin-top: -240px;
+}
+    .banner__content {
+    background-color: black;
+    max-width: 1500px;
+    padding: 0 70px;
+    margin: 0 auto;
+    height: 100%;
+    transition: max-width 1s;
+    position: relative;
+    }
+    .titre__container{
+        position: relative;
+        color: white;
+        //background-color: lightsalmon;
+
+        .trait{
+            height: 1px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            right: calc(100% + 32px);
+            top: 23px;
+        }
+        .titre{
+            font-family: "proxima-nova", sans-serif;
+            font-size: 40px;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 180px;
+            animation: fade 1s;
+        }
+
+
+    }
+}
+
+    .content {
+        //background-color: darkgreen;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        line-height: 1;
+    }
+        .ul{
+        padding-top: 0px;
+    min-height: 250px;
+        }
+        .inside{
+            background-color: gold;
+            height: 700px;
+            width: 49.2%;
+            float: left;
+            margin-bottom: 20px;
+            background: #fff;
+            position: relative;
+        }
+        
+    
+    
+
+
+.banner__list {
+//background-color: aqua;
+margin-top: -250px;
+
+.ul{
+    //background-color: deeppink;
+        //padding-top: 0px;
+        //min-height: 250px;
+        //box-sizing: border-box;
+        //list-style-type: none;
+    padding-top: 0px;
+    min-height: 250px;
+        }
+        .inside{
+            background-color: gold;
+            height: 700px;
+            width: 49.2%;
+            //float: left;
+            margin-bottom: 20px;
+            background: #fff;
+            position: relative;
+        }
+    .image__container{
+        background-color: brown;
+    width: 100%;
+    height: 501px;
+    background: #56565a;
+    filter: brightness(95%);
+    transition: filter 0.5s;
+    }
+
+    .image{
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+.text__container{
+    
+    width: 100%;
+    background: #fff;
+    padding: 30px 0px;
+
+    .titre-post{
+        font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+    }
+    .date{
+        
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    }
+}
+    }
+
+

@@ -7,9 +7,12 @@
     z-index: 10;
     //margin-top: -5px;
     display: block;
+    margin-top: 32px;
 
     .contact{ 
-    
+    .banner__top--top{
+    margin-top: 100px;
+    }
         .banner__top{
             background: #000;
             transition: height 1s;
@@ -18,12 +21,13 @@
             /* width: 1588px; */
             display: flex;
             flex-direction: row;
+            margin-top: 100px;
         }
 
         .container__banner{
             max-width: 1493px;
             padding: 0 263px 0 117px;
-            margin: 19px 483px 1px 5px;
+            margin: 150px 483px 1px 5px;
             height: 100%;
     
             
@@ -65,6 +69,8 @@
     flex-direction: row;
     margin-right: 106px;
     margin-left: -321px;
+    margin-top: 160px;
+    //padding-top: 100px;
 
 }
 
@@ -95,23 +101,26 @@ top: 0;
 
 .contact__adress {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
-text-decoration: none;
-color:white;
-//  display: flex;
-flex-direction: row;
-padding-left: 3%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    padding-left: 3%;
 }
 
 .contact__mail {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
 text-decoration: none;
 }
 
 .contact__info {
 font-family: "Proxima Nova", sans-serif;
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
 text-decoration: none;
 color:white;
 padding-left: 3%;
@@ -119,9 +128,10 @@ padding-left: 3%;
 
 .contact__tel {
     text-decoration: none;
-
     color:white;
     padding-left: 3%;
+    font-size: 18px;
+    font-weight: 400;
 }
 .contact__tel:hover{
     //background-color: #000;
@@ -131,18 +141,24 @@ padding-left: 3%;
 
 /****************************** BLOC Horaire*********************/
 .container__horaire{
-    //width: 30%;
-    float: left;
-    //padding-top: 20px;
-    //margin-bottom: 70px;
-    //background-color: rgb(6, 209, 57);
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    word-spacing: -0.5px;
+    /* padding-left: 28px; */
+    background-color: black;
+    color: white;
+    /* margin-right: 57px; */
+    width: 614px;
 
 .contact__bloc__heure{
-    //background-color: red;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 2;
+    margin-top: -10px;
 }
 .contact__horaire{
-    
     display: flex;
     flex-direction: column;
     line-height: 1.1;
@@ -151,23 +167,38 @@ padding-left: 3%;
     text-decoration:none; 
     background-color: black;
     color: white; 
+    margin-top: 10px;
 }
-
+.contact__icon{
+    margin: 15px 0 0 15px;
+}
+.contact__bloc--icon{
+    margin-left: 30px;
+    //margin-top: 10px;
+}
 h5{
 font-family: "Proxima Nova", sans-serif;
-font-weight: 400;
-font-size: 16px;
+font-weight: 700;
+font-size: 18px;
 line-height: 2;
 letter-spacing: 0.3px;
 word-spacing: 0.5px;
 }
+ul{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    /* letter-spacing: 0.3px; */
+    word-spacing: 0.5px;
 }
 }
-
+}
 .banner__medium{
     background-color:black;
     display: flex;
     flex-direction: row;
+    height: 285px;
     
 .medium__itineraire--container{
         width: 42%;
@@ -200,22 +231,12 @@ word-spacing: 0.5px;
     height: 350px;
     float: right;
     position: relative;
-    //background: #56565a;
     z-index: 10;
-    //background-repeat: no-repeat;
-        margin-top: -63px;
+    margin-top: -63px;
+    padding-top: 100px;
 }
-.medium__carte--map{
-    //width: 758px;
-    height: 658px;
-    border: 17px solid;
-    border: 1px solid;
-    margin: 0px;
-    /* margin-bottom: 154px; */
-    margin-top: -65px
 }
-
-} /********** banner medium */
+ /********** **********************banner medium */
 .banner-bottom {
     max-width: 1500px;
     padding: 0 70px;
@@ -223,9 +244,180 @@ word-spacing: 0.5px;
     height: 100%;
     transition: max-width 1s;
     position: relative;
+    background-color: red;
+
 }
 
+ /********** ********************** Banner Bottom */
+
+.banner__bottom{
+    max-width: 1500px;
+    padding: 0 70px;
+    margin: 0 auto;
+    height: 100%;
+    transition: max-width 1s;
+    position: relative;
+    font-family: "proxima-nova", sans-serif;
+    color: #000;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 154px 0 80px;
+}
+.banner__bottom__content{
+        //background-color: yellow;
+        padding-top: 63px;
+        font-family: "proxima-nova", sans-serif;
+        color: black;
+    }
+    .banner__bottom--text--container{
+    //background-color: green;
+    width: 490px;
+
+    }
+    .titre--question{
+    font-size: 40px;
+    font-weight: 700;
+    width: 490px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    transition: opacity 1s;
+    opacity: 1; 
+    }
+    .sous-titre{
+    font-size: 20px;
+    font-weight: 300;
+    //animation-duration: 2s;
+    //animation-name: wv_right;
+    //transition: opacity 1s;
+    //opacity: 1;
+    }
+    .banner__bottom--form{
+   // background-color: red;
+    display: flex;
+    width: 100%;
+    min-height: 702px;
+    justify-content: flex-end;
+    }
+
+.solid{
+    border-top: 3px solid #bbb;
+}
+    .formulaire--de--contact{
+    
+    width: 100%;
+    max-width: 900px;
+    min-height: 280px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    clear: both;
+} 
+
+/******************  FORMULAIRE DE CONTACT  *************/
+
+.container__formulaire__contact{
+    //background-color: blue;
+    .bloc__form{
+    width: 100%;
+    padding: -11px;
+    box-sizing: border-box;
+    margin-top: 41px;
+    margin-bottom: 21px;
+    resize: vertical;
+    
 
 
+    }
+    .input_name{
+        background-color:#f2f2f2;
+    }
+    .input_tel{
+        background-color:#f2f2f2;
+    } 
+    .input_mail{
+        background-color: #f2f2f2;
+    }   
+    .input_message{
+        background-color: #f2f2f2;
+    } 
+.form__requis{
+    font-size: 15px;
+    color:#423e3e;
+    padding-left: 777px;
+    font-style: italic;
+}
+    .input_envoyer{
+        background-color: #000;
+        border-radius: 50%;
+        font-size: 16px;
+        font-weight: 700;
+        
 
+    &:hover{
+    color:rgb(12, 11, 11);
+    
+
+}  
+.form__fleche{
+    margin-left: 20px;
+    transition: transform 0.3s;
+    transform: translate3d(-3px, 0, 0);
+
+} 
+}
+
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+
+label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+
+input[type=submit] {
+    width: 242px;
+    height: 77px;
+    line-height: 45px;
+    background: #000;
+    text-align: left;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    //box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    //box-shadow: 2px 2px 2px 3px lightblue;
+    box-shadow: 2px 2px 4px 1px rgb(0 0 0 / 19%) !important;
+}
+
+.container__formualire__contact {
+  /* Ajouter box-sizing */
+  box-sizing : border-box;
+  border-radius:5px;
+  background-color:#f2f2f2;
+  padding:20px;
+  width: 100%;
+  /* redéfinition 400 + 2*20 */
+  max-width: 440px;
+  margin:0 auto;
+}
+}
 
