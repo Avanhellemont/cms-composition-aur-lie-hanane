@@ -2,22 +2,23 @@
   display: flex;
   margin-bottom: 200px;
   .banniere__img--g {
-    width: 53%;
+    width: 50%;
     position: relative;
   }
-  .banniere__img--d {
-    width: 53%;
+  .image__img--d {
+    width: 50%;
+    position: relative;
   }
 }
 
 .banniere__bloc--g {
   background-color: white;
   padding: 70px;
-  width: 400px;
-  height: 20px;
+  width: 520px;
+  height: 25px;
   z-index: 1;
   left: 50px;
-  top: 485px;
+  top: 455px;
   box-shadow: 0px 2px 10px 3px rgb(136 136 136 / 10%);
   position: absolute;
 
@@ -25,6 +26,8 @@
     transform: scaleY(1.5);
     transition: 600ms ease-in-out;
     cursor: pointer;
+    height: 180px;
+
     .banniere__titre--g {
       display: none;
       transition: none;
@@ -58,6 +61,8 @@
         color: black;
         text-decoration: underline;
         font-weight: 700;
+        font-size: 18px;
+
         img {
           padding-left: 20px;
         }
@@ -73,6 +78,13 @@
   }
   .content__box--g {
     display: none;
+    .banniere__titre-g--hover {
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      transition: opacity 0.3s ease;
+      user-select: none;
+    }
   }
 }
 .banniere__btn {
@@ -84,7 +96,7 @@
   display: flex;
   position: relative;
   top: -225px;
-  left: 565px;
+  left: 550px;
   z-index: 10;
 
   .button__icon {
@@ -104,7 +116,7 @@
   display: flex;
   position: relative;
   top: -271px;
-  left: 1205px;
+  left: 1190px;
   z-index: 10;
 
   .button__icon {
@@ -122,18 +134,19 @@
   color: white;
   background-color: rgb(0, 0, 0);
   padding: 70px;
-  width: 350px;
-  height: 20px;
+  width: 520px;
+  height: 25px;
   position: absolute;
   z-index: 1;
   right: 50px;
-  top: 485px;
+  top: 455px;
   box-shadow: 0px 2px 10px 3px;
   transition: 0, 6s ease-in-out;
   &:hover {
     transform: scaleY(1.5);
     transition: 600ms ease-in-out;
     cursor: pointer;
+    height: 180px;
     .banniere__titre--d {
       display: none;
       transition: none;
@@ -168,6 +181,8 @@
         color: rgb(255, 255, 255);
         text-decoration: underline;
         font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 40px;
         img {
           padding-left: 20px;
         }

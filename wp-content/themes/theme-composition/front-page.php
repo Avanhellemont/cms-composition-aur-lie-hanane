@@ -5,7 +5,7 @@
 <!-- BANNIERE PART -->
 <?php 
 $bandeau = get_field('bandeau');
-if( $bandeau['image_g'] && ['image_d'] && ['titre_g'] && ['titre_g']):
+if( $bandeau['image_g'] && $bandeau['image_d'] && $bandeau['titre_g'] && $bandeau['titre_g']):
 // var_dump($bandeau['image_g']);
 ?>
 

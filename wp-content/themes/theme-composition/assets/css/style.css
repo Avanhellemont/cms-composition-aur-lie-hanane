@@ -22,81 +22,92 @@ html {
 
 header {
   background-color: rgb(0, 0, 0);
-  height: 100px;
+}
+header .content {
   display: flex;
   align-items: center;
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
   font-weight: 700;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: fixed;
   z-index: 1000;
   width: 100%;
+  max-width: auto;
+  padding: 10px 70px;
+  background: black;
 }
-header .header__nav {
+header .content .header__nav {
   display: flex;
 }
-header .header__nav .menu-menu-container {
+header .content .header__nav .menu-menu-container {
   display: flex;
 }
-header .header__nav .menu-menu-container .menu {
+header .content .header__nav .menu-menu-container .menu {
   display: flex;
 }
-header .header__nav .menu-menu-container .menu .header__li--hide-text {
+header .content .header__nav .menu-menu-container .menu .header__li--hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
-header .header__nav .menu-menu-container .menu .header__li--icon {
+header .content .header__nav .menu-menu-container .menu .header__li--icon {
   background-image: url(/wp-content/themes/theme-composition/assets/svg/home-minimal.svg); /* URL du drapeau FR */
   background-repeat: no-repeat;
   width: 13px;
 }
-header .header__nav .menu-menu-container .menu .menu-item a {
+header .content .header__nav .menu-menu-container .menu .menu-item a {
   font-family: "Proxima Nova", sans-serif;
   padding: 20px;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
 }
-header .header__nav .menu-menu-container .menu .menu-item a:hover {
+header .content .header__nav .menu-menu-container .menu .menu-item a:hover {
   text-decoration: underline;
   text-underline-offset: 15px;
   text-decoration-thickness: 3px;
 }
-header .header__nav .menu-menu-container .menu .menu-item a:active {
+header .content .header__nav .menu-menu-container .menu .menu-item a:active {
   text-decoration: underline;
   text-underline-offset: 15px;
   text-decoration-thickness: 3px;
 }
-header .header__button {
+header .content .header__button {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  background: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  color: #000;
   display: flex;
   align-items: center;
-  background: rgb(255, 255, 255);
-  color: black;
-  font-family: "Proxima Nova", sans-serif;
-  padding-left: 20px;
-  font-weight: 700;
   border: 1px solid rgb(0, 0, 0);
+  padding: 16px 25px;
+  float: right;
+  position: relative;
+  font-size: 17px;
+  transition: transform 0.6s;
 }
-header .header__button .button__icon {
-  padding: 20px;
+header .content .header__button .button__icon {
+  padding-left: 10px;
 }
-header .header__button:hover {
+header .content .header__button:hover {
   background-color: black;
   color: white;
   border: 1px solid rgb(255, 255, 255);
   margin: 0px;
 }
-header .header__button:hover .button__icon {
+header .content .header__button:hover .button__icon {
   fill: #fff !important;
 }
-header .header__button:hover .button__icon .svg__bullet-list {
+header .content .header__button:hover .button__icon .svg__bullet-list {
   fill: #fff !important;
 }
 
+@media only screen and (max-width: 1024px) {
+  .header__nav {
+    display: none !important;
+  }
+}
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 300;
@@ -121,21 +132,22 @@ body {
   margin-bottom: 200px;
 }
 .banniere__img .banniere__img--g {
-  width: 53%;
+  width: 50%;
   position: relative;
 }
-.banniere__img .banniere__img--d {
-  width: 53%;
+.banniere__img .image__img--d {
+  width: 50%;
+  position: relative;
 }
 
 .banniere__bloc--g {
   background-color: white;
   padding: 70px;
-  width: 400px;
-  height: 20px;
+  width: 520px;
+  height: 25px;
   z-index: 1;
   left: 50px;
-  top: 485px;
+  top: 455px;
   box-shadow: 0px 2px 10px 3px rgba(136, 136, 136, 0.1);
   position: absolute;
 }
@@ -143,6 +155,7 @@ body {
   transform: scaleY(1.5);
   transition: 600ms ease-in-out;
   cursor: pointer;
+  height: 180px;
 }
 .banniere__bloc--g:hover .banniere__titre--g {
   display: none;
@@ -178,6 +191,7 @@ body {
   color: black;
   text-decoration: underline;
   font-weight: 700;
+  font-size: 18px;
 }
 .banniere__bloc--g:hover .content__box--g .banniere__link-g--hover img {
   padding-left: 20px;
@@ -191,6 +205,13 @@ body {
 .banniere__bloc--g .content__box--g {
   display: none;
 }
+.banniere__bloc--g .content__box--g .banniere__titre-g--hover {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  transition: opacity 0.3s ease;
+  user-select: none;
+}
 
 .banniere__btn {
   background: rgb(0, 0, 0);
@@ -201,7 +222,7 @@ body {
   display: flex;
   position: relative;
   top: -225px;
-  left: 565px;
+  left: 550px;
   z-index: 10;
 }
 .banniere__btn .button__icon {
@@ -220,7 +241,7 @@ body {
   display: flex;
   position: relative;
   top: -271px;
-  left: 1205px;
+  left: 1190px;
   z-index: 10;
 }
 .banniere__btn--d .button__icon {
@@ -237,12 +258,12 @@ body {
   color: white;
   background-color: rgb(0, 0, 0);
   padding: 70px;
-  width: 350px;
-  height: 20px;
+  width: 520px;
+  height: 25px;
   position: absolute;
   z-index: 1;
   right: 50px;
-  top: 485px;
+  top: 455px;
   box-shadow: 0px 2px 10px 3px;
   transition: 0, 6s ease-in-out;
 }
@@ -250,6 +271,7 @@ body {
   transform: scaleY(1.5);
   transition: 600ms ease-in-out;
   cursor: pointer;
+  height: 180px;
 }
 .banniere__bloc--d:hover .banniere__titre--d {
   display: none;
@@ -286,6 +308,8 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: underline;
   font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
 }
 .banniere__bloc--d:hover .content__box--d .banniere__link-d--hover img {
   padding-left: 20px;

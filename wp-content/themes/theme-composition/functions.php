@@ -18,3 +18,4 @@ add_action( 'after_setup_theme', 'ajout_nouvelle_taille' );
 function ajout_nouvelle_taille() {
     add_image_size( 'taille_slide', 1500, 1250 );
 }
+
