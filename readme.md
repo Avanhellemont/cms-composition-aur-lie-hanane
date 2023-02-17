@@ -36,4 +36,5 @@ HTML, SASS, PHP, Git, WordPress, Plug-ing ( ACF, Contact Form 7, OpenstreetMap, 
 Nous n'avons pas eu le temps de terminer ce projet.
 Nous espérons être plus rapides à l'avenir sans la confusion du premier essai !
 Lors de ce projet, nous avons également suivi la continuité de notre avancement, grâce à la planification de notre Trello avec une mise à jour de 2x/semaine.
+
 **Lien du Trello :** [Trello](https://trello.com/b/IoAdsakz/projet-wordpress)
