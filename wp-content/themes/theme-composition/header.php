@@ -7,13 +7,26 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
 </head>
 <body>
+<<<<<<< HEAD
+   
 <header>
+<div class="content">
+=======
+<header>
+>>>>>>> hanane
     <a href="<?php bloginfo( 'url' ); ?>"><img class="header__logo--img" src="<?php bloginfo('template_url'); ?>/assets/svg/logo-full.svg" alt="logo"></a>
    
     <nav class="header__nav">
         <?php wp_nav_menu(array( 'theme_location' => 'menu_principal' ))  ?>
     </nav>
+<<<<<<< HEAD
+<!-- Wishlist -->
+    <a href="#" class="header__button">Wishlist <img class="button__icon" src="<?php bloginfo('template_url'); ?>/assets/svg/bullet-list.svg" alt="logo"></a>
+</header>
+</div>
+=======
 
     <a href="#" class="header__button">Wishlist <img class="button__icon" src="<?php bloginfo('template_url'); ?>/assets/svg/bullet-list.svg" alt="logo"></a>
    
 </header>
+>>>>>>> hanane

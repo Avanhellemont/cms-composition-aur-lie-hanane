@@ -31,6 +31,8 @@
                     </ul>
             </div>
         </div>
+        <!--<h6><p><a href="#">&#169 COMPOSITION 2019 - </a><a href="#"> POLITIQUE DE CONFIDENTIALITE</a> </p></h6>
+        <p>TVA : BE0872574089</p> -->
     </div>
 </div>
 <!-------------------------------   2 eme PARTIE   ------------------------------------>
@@ -67,6 +69,10 @@
 </div>
 </footer>
     <?php wp_footer() ?> 
+<<<<<<< HEAD
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
+=======
 <script src="<?php echo get_template_directory_uri(); ?>/assets/script.js"></script>
+>>>>>>> hanane
 </body>
 </html>
